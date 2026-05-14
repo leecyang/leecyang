@@ -1,0 +1,200 @@
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:0f766e&height=200&section=header&text=%E6%9D%8E%E6%89%BF%E9%98%B3&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%20%7C%202027%E5%B1%8A%E6%9C%AC%E7%A7%91%E7%94%9F%20%7C%20Full-Stack%20%2F%20FPGA&descAlignY=60&descAlign=50&descSize=18" />
+
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=760&lines=%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;JS%E9%80%86%E5%90%91%E4%B8%8E%E5%8D%8F%E8%AE%AE%E7%A0%94%E7%A9%B6%E5%AE%9E%E8%B7%B5%E8%80%85;%E7%AE%97%E5%AD%90%E5%BC%80%E5%8F%91%E4%B8%8EAI%E5%B7%A5%E5%85%B7%E9%93%BE%E6%8E%A2%E7%B4%A2%E8%80%85;FPGA%E4%B8%8E%E6%95%B0%E5%AD%97%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E8%80%85)](https://git.io/typing-svg)
+</div>
+
+---
+
+<div align="center">
+  <p>
+    <a href="https://github.com/leecyang">
+      <img src="https://img.shields.io/badge/GitHub-@leecyang-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" />
+    </a>
+    <a href="mailto:3439550021@qq.com">
+      <img src="https://img.shields.io/badge/Email-3439550021%40qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+    </a>
+    <a>
+      <img src="https://komarev.com/ghpvc/?username=leecyang&color=0ea5e9&style=for-the-badge&label=PROFILE+VIEWS" />
+    </a>
+    <a>
+      <img src="https://img.shields.io/github/followers/leecyang?label=FOLLOWERS&style=for-the-badge&color=0ea5e9&logo=github&logoColor=white" />
+    </a>
+  </p>
+</div>
+
+---
+
+## 关于我
+
+```python
+class LiChengyang:
+    name = "李承阳"
+    role = "南京农业大学本科在读（预计 2027 年毕业）"
+    focus = ["全栈开发", "算子开发", "JS逆向", "FPGA"]
+
+    building = [
+        "AI 工具链与多模态应用",
+        "自动化与协议相关工具",
+        "面向真实场景的 Web 系统",
+        "Verilog / SystemVerilog 数字系统项目",
+    ]
+
+    motto = "做能跑起来、能长期维护、也能解释清楚的系统。"
+```
+
+我目前是南京农业大学本科在读学生，主要在做两类事情：一类是面向真实使用场景的全栈系统，另一类是更偏底层和工程化的问题，比如算子开发、协议分析、JS 逆向以及 FPGA 数字系统设计。
+
+公开项目里，你会看到我在 AI 应用、自动化工具、图像处理、前后端协同和硬件实验上的不同尝试；私下里，我也会继续做一些偏工具链、浏览器协议和效率系统方向的项目，把想法尽量打磨成真正可用的东西。
+
+---
+
+## 技术栈
+
+<div align="center">
+
+### 语言
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-8B5CF6?style=for-the-badge&logoColor=white)
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-6D28D9?style=for-the-badge&logoColor=white)
+
+### 前端
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vue](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### 后端与工程化
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### 数据与 AI
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111827?style=for-the-badge&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
+![DJL](https://img.shields.io/badge/DJL-111827?style=for-the-badge&logoColor=white)
+
+</div>
+
+---
+
+## 代表项目
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌾 AgriVision AI</h3>
+      <p><strong>农业害虫识别平台</strong></p>
+      <p>一个结合 Vue、Spring Boot、DJL 与 ONNX Runtime 的农业害虫识别系统，面向真实业务场景组织了前端、后端、推理和部署链路。</p>
+      <p><strong>关键词：</strong>AI 应用、全栈系统、计算机视觉、工程化部署</p>
+      <p><a href="https://github.com/leecyang/agrivision-ai">查看项目</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📚 WegoLibrary</h3>
+      <p><strong>自托管到馆/签到助手</strong></p>
+      <p>基于 FastAPI + React 的多用户自托管工具，围绕授权解析、状态维护、自动签到和后台管理做了一套完整闭环。</p>
+      <p><strong>关键词：</strong>自动化工具、Web 系统、协议交互、可部署产品</p>
+      <p><a href="https://github.com/leecyang/WegoLibrary">查看项目</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌟 LumiVibe</h3>
+      <p><strong>AI 驱动的情绪追踪应用</strong></p>
+      <p>用 React、TypeScript、Express 与 Supabase 构建的照片分析与陪伴式交互应用，重点探索了多模态体验与移动端交互表达。</p>
+      <p><strong>关键词：</strong>多模态应用、前后端协同、产品体验、数据追踪</p>
+      <p><a href="https://github.com/leecyang/LumiVibe">查看项目</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🫘 Img2Pindou</h3>
+      <p><strong>拼豆底稿生成 Web 应用</strong></p>
+      <p>支持 AI 风格化与智能像素化的图像处理工具，将图片转换为可执行的拼豆图纸，同时兼顾参数可调性和实际制作可用性。</p>
+      <p><strong>关键词：</strong>图像处理、FastAPI、React、像素化算法</p>
+      <p><a href="https://github.com/leecyang/img2pindou">查看项目</a></p>
+    </td>
+  </tr>
+</table>
+
+### FPGA / 数字系统项目
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⏰ ChronoCore</h3>
+      <p><strong>基于 FPGA 的现代化数字时钟系统</strong></p>
+      <p>使用 Verilog 构建的数字时钟系统，包含时钟、闹钟、秒表、按键消抖、数码管驱动等模块，体现了完整的层次化数字系统设计思路。</p>
+      <p><a href="https://github.com/leecyang/ChronoCore">查看项目</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧺 Washing_Machine_Controller</h3>
+      <p><strong>洗衣机控制器 FPGA 项目</strong></p>
+      <p>基于 SystemVerilog 的控制器设计项目，聚焦有限状态机、时序控制和硬件逻辑组织，是我在 FPGA / 数字电路方向的重要实践之一。</p>
+      <p><a href="https://github.com/leecyang/Washing_Machine_Controller">查看项目</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 私有项目方向
+
+虽然很多正在推进的项目暂时没有公开，但它们基本都围绕下面几条主线展开：
+
+- **算子开发**：更偏底层实现和性能组织的问题，关注可复用性与工程落地。
+- **AI 工具链**：包括模型接入、多模态处理、工作流串联和开发体验优化。
+- **浏览器 / 协议相关实验**：聚焦 JS 逆向、接口分析、自动化与实际业务协议交互。
+- **个人效率系统**：把日常反复出现的流程产品化，做成可以长期运行的小系统。
+
+---
+
+## GitHub 统计
+
+<div align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=leecyang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=cn" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leecyang&layout=compact&theme=tokyonight&hide_border=true&locale=cn" />
+</div>
+
+<div align="center">
+  <img width="84%" src="https://github-readme-activity-graph.vercel.app/graph?username=leecyang&theme=github-compact&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=ffffff&area=true&area_color=22c55e" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=leecyang&theme=tokyonight&no-frame=true&margin-w=10&column=6" />
+</div>
+
+---
+
+## 联系我
+
+<div align="center">
+  <a href="mailto:3439550021@qq.com">
+    <img src="https://img.shields.io/badge/Email-3439550021%40qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/leecyang">
+    <img src="https://img.shields.io/badge/GitHub-@leecyang-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
+<div align="center">
+  <br />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1d4ed8,100:0f172a&height=120&section=footer&animation=fadeIn" />
+</div>
