@@ -1,0 +1,76 @@
+name: Refresh Profile Assets
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "*/15 * * * *"
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GENERATED_DIR: dist
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install Python dependencies
+        run: pip install requests pillow
+
+      - name: Restore previous generated assets
+        shell: bash
+        run: |
+          mkdir -p "$GENERATED_DIR"
+          git clone --depth 1 --branch generated "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .generated-branch || true
+          if [ -d .generated-branch ]; then
+            cp -R .generated-branch/. "$GENERATED_DIR"/
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate monitoring assets
+        run: python scripts/profile_assets.py monitor --out-dir "$GENERATED_DIR"
+
+      - name: Generate GitHub stats assets
+        run: python scripts/profile_assets.py github --username leecyang --out-dir "$GENERATED_DIR"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install Playwright
+        if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * *'
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+
+      - name: Capture demo screenshots
+        if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * *'
+        run: node scripts/capture_demo.mjs demo-captures
+
+      - name: Build demo GIF
+        if: github.event_name != 'schedule' || github.event.schedule == '0 3 * * *'
+        run: python scripts/build_demo_gif.py demo-captures "$GENERATED_DIR/live-sites-demo.gif"
+
+      - name: Publish assets to generated branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: generated
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

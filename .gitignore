@@ -1,0 +1,5 @@
+dist/
+.generated-branch/
+demo-captures/
+node_modules/
+scripts/__pycache__/

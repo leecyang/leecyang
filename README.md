@@ -84,6 +84,18 @@ $ echo $MOTTO
 
 ---
 
+## Live Ops / Monitoring
+
+<div align="center">
+  <img width="88%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/status-summary.svg" alt="Monitoring summary" />
+  <br /><br />
+  <img width="96%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/status-grid.svg" alt="Monitoring grid" />
+</div>
+
+我把几个真实在跑的站点和 API 挂到了主页里，读数逻辑更偏运维视角，不只是“有没有个链接”。普通站点按 `2xx/3xx` 判活，`letsapi.store/v1/responses` 这类边界接口则按固定 `404 JSON` 视为在线，`golibrary.xyz` 还额外带了一层重试，尽量少报假警。
+
+---
+
 ## ⚙️ Tech Stack
 
 ```text
@@ -223,8 +235,8 @@ stack.index
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=leecyang&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&locale=cn" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leecyang&layout=compact&theme=tokyonight&hide_border=true&locale=cn" />
+  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/github-overview.svg" alt="GitHub overview" />
+  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/github-languages.svg" alt="GitHub languages" />
 </div>
 
 <div align="center">
@@ -245,6 +257,61 @@ stack.index
     <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/leecyang/leecyang/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
+
+---
+
+## GIF Demo
+
+<div align="center">
+  <img width="92%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/live-sites-demo.gif" alt="Live sites demo" />
+</div>
+
+这段 GIF 会从你真实在线的站点抓取画面，按天刷新。比起凭空拼概念图，我更喜欢让主页直接展示“现在正在跑的东西长什么样”。
+
+---
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A["Monitored Targets<br/>golibrary / lingxilearn / christmas1314 / lyyzka / letsapi"] --> B["GitHub Actions<br/>15 min probes + daily demo refresh"]
+    B --> C["Python Probes<br/>status.json + status-summary.svg + status-grid.svg"]
+    B --> D["GitHub API Renderer<br/>github-overview.svg + github-languages.svg"]
+    B --> E["Playwright Capture + Pillow GIF<br/>live-sites-demo.gif"]
+    C --> F["generated branch assets"]
+    D --> F
+    E --> F
+    F --> G["Profile README"]
+```
+
+```mermaid
+flowchart TD
+    U["Users"] --> W1["golibrary.xyz"]
+    U --> W2["lingxilearn.cn"]
+    U --> W3["christmas1314.xyz"]
+    U --> W4["lyyzka.xyz"]
+    U --> G1["gen.letsapi.store/overview"]
+    U --> G2["letsapi.store/v1/responses"]
+    M["README Monitoring Layer"] --> W1
+    M --> W2
+    M --> W3
+    M --> W4
+    M --> G1
+    M --> G2
+```
+
+---
+
+## Auto Update
+
+```text
+refresh-assets.yml
+├── every 15 minutes -> probe sites + regenerate monitoring and GitHub SVG cards
+├── every day 03:00 UTC -> refresh site screenshots and rebuild demo GIF
+└── push / manual run -> full refresh
+```
+
+主页上的监控卡、统计卡和演示图都不是手工维护的。它们会自己刷新，坏了就会显示出来，活着就一直亮着。
 
 ---
 
