@@ -1,7 +1,7 @@
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:0f766e&height=210&section=header&text=%E6%9D%8E%E6%89%BF%E9%98%B3&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%20%7C%202027%E5%B1%8A%E6%9C%AC%E7%A7%91%E7%94%9F%20%7C%20Full-Stack%20%2F%20FPGA&descAlignY=60&descAlign=50&descSize=18" />
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=760&lines=%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;JS%E9%80%86%E5%90%91%E4%B8%8E%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E5%AE%9E%E8%B7%B5%E8%80%85;%E7%AE%97%E5%AD%90%E5%BC%80%E5%8F%91%E4%B8%8EAI%E5%B7%A5%E5%85%B7%E9%93%BE%E6%8E%A2%E7%B4%A2%E8%80%85;FPGA%E4%B8%8E%E6%95%B0%E5%AD%97%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E8%80%85)](https://git.io/typing-svg)
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=760&lines=%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;JS%E9%80%86%E5%90%91%E4%B8%8E%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E5%AE%9E%E8%B7%B5%E8%80%85;%E7%AE%97%E5%AD%90%E5%BC%80%E5%8F%91%E4%B8%8EAI%E5%B7%A5%E5%85%B7%E9%93%BE%E6%8E%A2%E7%B4%A2%E8%80%85;FPGA%E4%B8%8E%E6%95%B0%E5%AD%97%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E8%80%85;Vibe%20Coding%E9%87%8D%E5%BA%A6%E4%BE%9D%E8%B5%96%E8%80%85)](https://git.io/typing-svg)
 </div>
 
 ---
@@ -27,30 +27,45 @@
 
 ---
 
+## Hero Banner
+
+```text
+> booting profile/leecyang ...
+> mode: builder | reverser | operator | fpga tinkerer
+> status: caffeinated enough, still shipping
+> attitude: professional, slightly lazy, heavily terminal-shaped
+```
+
+我喜欢把复杂问题拆开、跑通、再慢慢抛光。能写前后端的时候我会直接把链路收完整；需要往下钻的时候，就去看协议、看实现、看性能瓶颈，或者去跟 Verilog / SystemVerilog 打交道。
+
+如果一个东西最后不能稳定跑起来，我一般不会太相信它的故事。  
+
+---
+
 ## 🧠 About Me
 
-```python
-class LiChengyang:
-    name = "李承阳"
-    role = "南京农业大学本科在读（预计 2027 年毕业）"
-    focus = ["全栈开发", "算子开发", "JS逆向", "FPGA"]
+```bash
+$ whoami
+李承阳
 
-    building = [
-        "AI 工具链与多模态应用",
-        "自动化与协议相关工具",
-        "面向真实场景的 Web 系统",
-        "Verilog / SystemVerilog 数字系统项目",
-    ]
+$ cat /etc/role
+南京农业大学本科在读（预计 2027 年毕业）
 
-    motto = "做能跑起来、能长期维护、也能解释清楚的系统。"
+$ ls ./focus
+全栈开发  算子开发  JS逆向  FPGA
 
-    def say_hi(self):
-        return "欢迎来到我的 GitHub。"
+$ cat ./current_status
+- 正在把 AI 工具链、多模态应用和自动化工具做得更像产品
+- 继续研究协议、接口行为和浏览器侧交互路径
+- 在 FPGA / 数字系统项目里练时序、控制逻辑和模块化设计
+
+$ echo $MOTTO
+做能跑起来、能长期维护、也能解释清楚的系统。
 ```
 
 我目前是南京农业大学本科在读学生，主要把时间花在两类问题上：一类是面向真实使用场景的全栈系统，另一类是更偏底层和工程化的问题，比如算子开发、协议分析、JS 逆向以及 FPGA 数字系统设计。
 
-公开项目里，你会看到我在 AI 应用、自动化工具、图像处理、前后端协同和硬件实验上的不同尝试；私下里，我也会继续做一些偏工具链、浏览器协议和效率系统方向的项目，把想法尽量打磨成真正可用的东西。
+公开项目里，你会看到我在 AI 应用、自动化工具、图像处理、前后端协同和硬件实验上的不同尝试；私下里，我也会继续做一些偏工具链、浏览器协议和效率系统方向的项目，把想法尽量打磨成真正可用的东西。整体上我不太追求“看起来很忙”，更在意系统能不能长期稳定地跑。
 
 ---
 
@@ -70,6 +85,15 @@ class LiChengyang:
 ---
 
 ## ⚙️ Tech Stack
+
+```text
+stack.index
+├── languages      -> JavaScript / TypeScript / Python / Java / C++ / Verilog / SystemVerilog
+├── frontend       -> React / Vue / Vite / Tailwind
+├── backend        -> FastAPI / Express / Spring Boot / Node.js
+├── infra          -> Docker / Cloudflare / GitHub Actions
+└── data_and_ai    -> MySQL / SQLite / Supabase / Redis / OpenCV / YOLO / ONNX / DJL
+```
 
 <div align="center">
 
@@ -114,6 +138,8 @@ class LiChengyang:
 ![DJL](https://img.shields.io/badge/DJL-111827?style=for-the-badge&logoColor=white)
 
 </div>
+
+我习惯把技术栈看成工具箱，不太会为了“补关键词”去硬学一圈。大多数时候，选型标准其实很朴素：能不能快速验证，能不能继续扩，出了问题能不能自己修。
 
 ---
 
