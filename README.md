@@ -87,9 +87,9 @@ $ echo $MOTTO
 ## Live Ops / Monitoring
 
 <div align="center">
-  <img width="88%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/status-summary.svg" alt="Monitoring summary" />
+  <img width="88%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/status-summary.svg" alt="Monitoring summary" />
   <br /><br />
-  <img width="96%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/status-grid.svg" alt="Monitoring grid" />
+  <img width="96%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/status-grid.svg" alt="Monitoring grid" />
 </div>
 
 我把几个真实在跑的站点和 API 挂到了主页里，读数逻辑更偏运维视角，不只是“有没有个链接”。普通站点按 `2xx/3xx` 判活，`letsapi.store/v1/responses` 这类边界接口则按固定 `404 JSON` 视为在线，`golibrary.xyz` 还额外带了一层重试，尽量少报假警。
@@ -235,8 +235,8 @@ stack.index
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/github-overview.svg" alt="GitHub overview" />
-  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/github-languages.svg" alt="GitHub languages" />
+  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/github-overview.svg" alt="GitHub overview" />
+  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/github-languages.svg" alt="GitHub languages" />
 </div>
 
 <div align="center">
@@ -263,7 +263,7 @@ stack.index
 ## GIF Demo
 
 <div align="center">
-  <img width="92%" src="https://raw.githubusercontent.com/leecyang/leecyang/generated/live-sites-demo.gif" alt="Live sites demo" />
+  <img width="92%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/live-sites-demo.gif" alt="Live sites demo" />
 </div>
 
 这段 GIF 会从你真实在线的站点抓取画面，按天刷新。比起凭空拼概念图，我更喜欢让主页直接展示“现在正在跑的东西长什么样”。
