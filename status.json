@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-05-14 03:06 UTC",
+  "summary": {
+    "online": 5,
+    "offline": 1,
+    "targets": 6,
+    "avg_latency_ms": 1214.9
+  },
+  "targets": [
+    {
+      "name": "golibrary.xyz",
+      "url": "https://golibrary.xyz/",
+      "ok": false,
+      "status": null,
+      "content_type": "",
+      "latency_ms": 625.2,
+      "rule": "2xx/3xx + retry",
+      "retries": 2,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    },
+    {
+      "name": "lingxilearn.cn",
+      "url": "https://lingxilearn.cn",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "latency_ms": 2436.6,
+      "rule": "2xx/3xx",
+      "retries": 1,
+      "error": null
+    },
+    {
+      "name": "christmas1314.xyz",
+      "url": "https://christmas1314.xyz",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html",
+      "latency_ms": 885.2,
+      "rule": "2xx/3xx",
+      "retries": 1,
+      "error": null
+    },
+    {
+      "name": "lyyzka.xyz",
+      "url": "https://lyyzka.xyz/",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "latency_ms": 1085.2,
+      "rule": "2xx/3xx",
+      "retries": 1,
+      "error": null
+    },
+    {
+      "name": "gen.letsapi.store",
+      "url": "https://gen.letsapi.store/overview",
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html",
+      "latency_ms": 1448.0,
+      "rule": "200",
+      "retries": 1,
+      "error": null
+    },
+    {
+      "name": "letsapi.store API",
+      "url": "https://letsapi.store/v1/responses",
+      "ok": true,
+      "status": 404,
+      "content_type": "application/json; charset=utf-8",
+      "latency_ms": 809.2,
+      "rule": "404 JSON",
+      "retries": 1,
+      "error": null
+    }
+  ]
+}

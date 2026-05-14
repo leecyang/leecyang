@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="392" viewBox="0 0 720 392" role="img" aria-label="GitHub Overview">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#0D1117" />
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="719" height="391" rx="18" fill="url(#bg)" stroke="#1F2937" />
+  <text x="28" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#E5E7EB">GitHub Overview</text>
+  <text x="28" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Self-rendered stats card with no external Vercel dependency</text>
+  
+      <rect x="28" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
+      <text x="46" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Owned repos</text>
+      <text x="46" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">15</text>
+
+      <rect x="193" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
+      <text x="211" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Followers</text>
+      <text x="211" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">3</text>
+
+      <rect x="358" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
+      <text x="376" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Stars</text>
+      <text x="376" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">18</text>
+
+      <rect x="523" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
+      <text x="541" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Forks</text>
+      <text x="541" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">2</text>
+
+      <rect x="28" y="194" width="664" height="122" rx="14" fill="#111827" stroke="#1F2937" />
+      <text x="46" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">Most starred repo</text>
+      <text x="46" y="258" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#E5E7EB">agrivision-ai</text>
+      <text x="46" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">stars 8 · updated 2026-05-12</text>
+
+      <text x="46" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Recently updated: leecyang · agrivision-ai · Washing_Machine_Controller · letsapi-hero</text>
+
+      <text x="28" y="370" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Generated at 2026-05-14 03:06 UTC from GitHub API</text>
+
+</svg>
