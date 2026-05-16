@@ -14,7 +14,7 @@
       <text x="66" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">golibrary.xyz</text>
       <text x="340" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">DOWN · HTTP ERR</text>
       <text x="560" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">2xx/3xx + retry</text>
-      <text x="930" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">793.7 ms</text>
+      <text x="930" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">675.4 ms</text>
       <text x="1060" y="124" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://golibrary.xyz/</text>
 
       <rect x="22" y="154" width="1056" height="46" rx="12" fill="#0F172A" stroke="#1F2937" />
@@ -22,7 +22,7 @@
       <text x="66" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">lingxilearn.cn</text>
       <text x="340" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">UP · HTTP 200</text>
       <text x="560" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">2xx/3xx · text/html</text>
-      <text x="930" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">3308.6 ms</text>
+      <text x="930" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">1176.3 ms</text>
       <text x="1060" y="182" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://lingxilearn.cn</text>
 
       <rect x="22" y="212" width="1056" height="46" rx="12" fill="#111827" stroke="#1F2937" />
@@ -30,7 +30,7 @@
       <text x="66" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">christmas1314.xyz</text>
       <text x="340" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">UP · HTTP 200</text>
       <text x="560" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">2xx/3xx · text/html</text>
-      <text x="930" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">1395.9 ms</text>
+      <text x="930" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">960.2 ms</text>
       <text x="1060" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://christmas1314.xyz</text>
 
       <rect x="22" y="270" width="1056" height="46" rx="12" fill="#0F172A" stroke="#1F2937" />
@@ -38,7 +38,7 @@
       <text x="66" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">lyyzka.xyz</text>
       <text x="340" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">UP · HTTP 200</text>
       <text x="560" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">2xx/3xx · text/html</text>
-      <text x="930" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">1099.5 ms</text>
+      <text x="930" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">1038.4 ms</text>
       <text x="1060" y="298" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://lyyzka.xyz/</text>
 
       <rect x="22" y="328" width="1056" height="46" rx="12" fill="#111827" stroke="#1F2937" />
@@ -46,7 +46,7 @@
       <text x="66" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">gen.letsapi.store</text>
       <text x="340" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">UP · HTTP 200</text>
       <text x="560" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">200 · text/html</text>
-      <text x="930" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">933.4 ms</text>
+      <text x="930" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">889.2 ms</text>
       <text x="1060" y="356" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://gen.letsapi.store/overview</text>
 
       <rect x="22" y="386" width="1056" height="46" rx="12" fill="#0F172A" stroke="#1F2937" />
@@ -54,7 +54,7 @@
       <text x="66" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB">letsapi.store API</text>
       <text x="340" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">UP · HTTP 404</text>
       <text x="560" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">404 JSON · application/json</text>
-      <text x="930" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">910.7 ms</text>
+      <text x="930" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="14" text-anchor="end" fill="#94A3B8">970.8 ms</text>
       <text x="1060" y="414" font-family="Segoe UI, Arial, sans-serif" font-size="12" text-anchor="end" fill="#38BDF8">https://letsapi.store/v1/responses</text>
 
 </svg>
