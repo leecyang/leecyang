@@ -8,18 +8,18 @@
   <rect x="0.5" y="0.5" width="719" height="327" rx="18" fill="url(#bg)" stroke="#1F2937" />
   <text x="28" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#E5E7EB">Top Languages</text>
   <text x="28" y="64" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Language share aggregated from repository byte counts</text>
-  <rect x="30" y="96" width="253" height="18" rx="9" fill="#38BDF8" /><rect x="283" y="96" width="205" height="18" rx="9" fill="#22C55E" /><rect x="488" y="96" width="92" height="18" rx="9" fill="#F59E0B" /><rect x="580" y="96" width="50" height="18" rx="9" fill="#A855F7" /><rect x="630" y="96" width="47" height="18" rx="9" fill="#EF4444" /><rect x="677" y="96" width="13" height="18" rx="9" fill="#14B8A6" />
+  <rect x="30" y="96" width="256" height="18" rx="9" fill="#38BDF8" /><rect x="286" y="96" width="204" height="18" rx="9" fill="#22C55E" /><rect x="490" y="96" width="92" height="18" rx="9" fill="#F59E0B" /><rect x="582" y="96" width="50" height="18" rx="9" fill="#A855F7" /><rect x="632" y="96" width="47" height="18" rx="9" fill="#EF4444" /><rect x="679" y="96" width="11" height="18" rx="9" fill="#14B8A6" />
       <circle cx="40" cy="145" r="6" fill="#38BDF8" />
       <text x="56" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">Python</text>
-      <text x="680" y="150" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">38.4%</text>
+      <text x="680" y="150" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">38.8%</text>
 
       <circle cx="40" cy="173" r="6" fill="#22C55E" />
       <text x="56" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">TypeScript</text>
-      <text x="680" y="178" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">31.0%</text>
+      <text x="680" y="178" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">30.9%</text>
 
       <circle cx="40" cy="201" r="6" fill="#F59E0B" />
       <text x="56" y="206" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">JavaScript</text>
-      <text x="680" y="206" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">14.0%</text>
+      <text x="680" y="206" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">13.9%</text>
 
       <circle cx="40" cy="229" r="6" fill="#A855F7" />
       <text x="56" y="234" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">Vue</text>
@@ -33,6 +33,6 @@
       <text x="56" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">Java</text>
       <text x="680" y="290" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">1.8%</text>
 
-      <text x="30" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Aggregated from owned repositories only · Generated at 2026-05-19 11:30 UTC</text>
+      <text x="30" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Aggregated from owned repositories only · Generated at 2026-05-19 14:14 UTC</text>
 
 </svg>
