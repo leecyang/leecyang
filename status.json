@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-21 23:20 UTC",
+  "generated_at": "2026-05-22 01:31 UTC",
   "summary": {
-    "online": 4,
-    "offline": 2,
+    "online": 5,
+    "offline": 1,
     "targets": 6,
-    "avg_latency_ms": 1148.2
+    "avg_latency_ms": 1101.0
   },
   "targets": [
     {
       "name": "golibrary.xyz",
       "url": "https://golibrary.xyz/",
-      "ok": false,
-      "status": null,
-      "content_type": "",
-      "latency_ms": 855.6,
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html",
+      "latency_ms": 1101.5,
       "rule": "2xx/3xx + retry",
       "retries": 2,
-      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+      "error": null
     },
     {
       "name": "lingxilearn.cn",
@@ -24,7 +24,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "latency_ms": 1264.3,
+      "latency_ms": 1122.9,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -35,7 +35,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html",
-      "latency_ms": 1438.1,
+      "latency_ms": 1073.5,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -46,7 +46,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "latency_ms": 1414.4,
+      "latency_ms": 1162.7,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -57,7 +57,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html",
-      "latency_ms": 974.6,
+      "latency_ms": 1189.0,
       "rule": "200",
       "retries": 1,
       "error": null
@@ -68,7 +68,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 942.1,
+      "latency_ms": 956.2,
       "rule": "404 JSON",
       "retries": 1,
       "error": null
