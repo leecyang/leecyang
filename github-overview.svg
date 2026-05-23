@@ -19,7 +19,7 @@
 
       <rect x="358" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
       <text x="376" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Stars</text>
-      <text x="376" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">18</text>
+      <text x="376" y="158" font-family="Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="#E5E7EB">19</text>
 
       <rect x="523" y="92" width="145" height="86" rx="14" fill="#111827" stroke="#1F2937" />
       <text x="541" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Forks</text>
@@ -30,8 +30,8 @@
       <text x="46" y="258" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#E5E7EB">agrivision-ai</text>
       <text x="46" y="286" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">stars 8 · updated 2026-05-23</text>
 
-      <text x="46" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Recently updated: memos2bark · agrivision-ai · WegoLibrary · leecyang</text>
+      <text x="46" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Recently updated: memos2bark · WegoLibrary · agrivision-ai · leecyang</text>
 
-      <text x="28" y="370" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Generated at 2026-05-23 16:42 UTC from GitHub API</text>
+      <text x="28" y="370" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Generated at 2026-05-23 17:47 UTC from GitHub API</text>
 
 </svg>
