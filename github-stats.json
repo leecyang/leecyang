@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03 02:10 UTC",
+  "generated_at": "2026-06-03 07:15 UTC",
   "username": "leecyang",
   "followers": 3,
   "following": 2,
@@ -191,14 +191,14 @@
       "releases_url": "https://api.github.com/repos/leecyang/NJAU-Libyy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/leecyang/NJAU-Libyy/deployments",
       "created_at": "2026-05-30T06:18:54Z",
-      "updated_at": "2026-06-02T11:59:07Z",
-      "pushed_at": "2026-06-02T11:59:02Z",
+      "updated_at": "2026-06-03T06:06:13Z",
+      "pushed_at": "2026-06-03T06:06:09Z",
       "git_url": "git://github.com/leecyang/NJAU-Libyy.git",
       "ssh_url": "git@github.com:leecyang/NJAU-Libyy.git",
       "clone_url": "https://github.com/leecyang/NJAU-Libyy.git",
       "svn_url": "https://github.com/leecyang/NJAU-Libyy",
       "homepage": null,
-      "size": 383,
+      "size": 440,
       "stargazers_count": 0,
       "watchers_count": 0,
       "language": "TypeScript",
@@ -567,23 +567,23 @@
   "top_languages": [
     {
       "name": "TypeScript",
-      "bytes": 936215,
-      "percent": 37.5
+      "bytes": 956308,
+      "percent": 38.0
     },
     {
       "name": "Python",
       "bytes": 872353,
-      "percent": 34.9
+      "percent": 34.6
     },
     {
       "name": "JavaScript",
       "bytes": 330233,
-      "percent": 13.2
+      "percent": 13.1
     },
     {
       "name": "Vue",
       "bytes": 164779,
-      "percent": 6.6
+      "percent": 6.5
     },
     {
       "name": "CSS",
