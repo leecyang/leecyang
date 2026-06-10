@@ -11,7 +11,7 @@
   <rect x="30" y="96" width="261" height="18" rx="9" fill="#38BDF8" /><rect x="291" y="96" width="224" height="18" rx="9" fill="#22C55E" /><rect x="515" y="96" width="80" height="18" rx="9" fill="#F59E0B" /><rect x="595" y="96" width="45" height="18" rx="9" fill="#A855F7" /><rect x="640" y="96" width="40" height="18" rx="9" fill="#EF4444" /><rect x="680" y="96" width="10" height="18" rx="9" fill="#14B8A6" />
       <circle cx="40" cy="145" r="6" fill="#38BDF8" />
       <text x="56" y="150" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">TypeScript</text>
-      <text x="680" y="150" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">39.5%</text>
+      <text x="680" y="150" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">39.6%</text>
 
       <circle cx="40" cy="173" r="6" fill="#22C55E" />
       <text x="56" y="178" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">Python</text>
@@ -33,6 +33,6 @@
       <text x="56" y="290" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#E5E7EB">Java</text>
       <text x="680" y="290" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#94A3B8">1.5%</text>
 
-      <text x="30" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Aggregated from owned repositories only · Generated at 2026-06-10 07:13 UTC</text>
+      <text x="30" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Aggregated from owned repositories only · Generated at 2026-06-10 10:35 UTC</text>
 
 </svg>
