@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11 23:55 UTC",
+  "generated_at": "2026-06-12 04:45 UTC",
   "username": "leecyang",
   "followers": 3,
   "following": 2,
@@ -191,8 +191,8 @@
       "releases_url": "https://api.github.com/repos/leecyang/NJAU-Libyy/releases{/id}",
       "deployments_url": "https://api.github.com/repos/leecyang/NJAU-Libyy/deployments",
       "created_at": "2026-05-30T06:18:54Z",
-      "updated_at": "2026-06-11T16:10:05Z",
-      "pushed_at": "2026-06-11T16:10:02Z",
+      "updated_at": "2026-06-12T04:41:22Z",
+      "pushed_at": "2026-06-12T04:41:18Z",
       "git_url": "git://github.com/leecyang/NJAU-Libyy.git",
       "ssh_url": "git@github.com:leecyang/NJAU-Libyy.git",
       "clone_url": "https://github.com/leecyang/NJAU-Libyy.git",
@@ -567,28 +567,28 @@
   "top_languages": [
     {
       "name": "TypeScript",
-      "bytes": 1182510,
-      "percent": 41.8
+      "bytes": 1252103,
+      "percent": 43.0
     },
     {
       "name": "Python",
       "bytes": 925273,
-      "percent": 32.7
+      "percent": 31.8
     },
     {
       "name": "JavaScript",
       "bytes": 330233,
-      "percent": 11.7
+      "percent": 11.3
     },
     {
       "name": "CSS",
-      "bytes": 187686,
-      "percent": 6.6
+      "bytes": 197842,
+      "percent": 6.8
     },
     {
       "name": "Vue",
       "bytes": 164779,
-      "percent": 5.8
+      "percent": 5.7
     },
     {
       "name": "Java",
