@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24 16:03 UTC",
+  "generated_at": "2026-06-24 18:11 UTC",
   "summary": {
     "online": 2,
     "offline": 4,
     "targets": 6,
-    "avg_latency_ms": 1015.4
+    "avg_latency_ms": 1144.4
   },
   "targets": [
     {
@@ -13,7 +13,7 @@
       "ok": false,
       "status": null,
       "content_type": "",
-      "latency_ms": 623.0,
+      "latency_ms": 778.2,
       "rule": "2xx/3xx + retry",
       "retries": 2,
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
@@ -24,7 +24,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 903.2,
+      "latency_ms": 1274.3,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -35,7 +35,7 @@
       "ok": true,
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "latency_ms": 860.2,
+      "latency_ms": 1061.7,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -46,7 +46,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "latency_ms": 831.8,
+      "latency_ms": 1142.4,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -57,7 +57,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 995.5,
+      "latency_ms": 1340.0,
       "rule": "200",
       "retries": 1,
       "error": null
@@ -68,7 +68,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 1878.4,
+      "latency_ms": 1269.8,
       "rule": "404 JSON",
       "retries": 1,
       "error": null
