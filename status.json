@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-15 00:09 UTC",
+  "generated_at": "2026-07-15 03:37 UTC",
   "summary": {
-    "online": 3,
-    "offline": 3,
+    "online": 4,
+    "offline": 2,
     "targets": 6,
-    "avg_latency_ms": 961.9
+    "avg_latency_ms": 955.7
   },
   "targets": [
     {
       "name": "golibrary.xyz",
       "url": "https://golibrary.xyz/",
-      "ok": false,
-      "status": null,
-      "content_type": "",
-      "latency_ms": 756.3,
+      "ok": true,
+      "status": 200,
+      "content_type": "text/html",
+      "latency_ms": 1091.9,
       "rule": "2xx/3xx + retry",
       "retries": 2,
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
@@ -24,7 +24,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "latency_ms": 1052.1,
+      "latency_ms": 845.8,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -35,7 +35,7 @@
       "ok": true,
       "status": 200,
       "content_type": "application/json; charset=utf-8",
-      "latency_ms": 1063.6,
+      "latency_ms": 1024.9,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -46,7 +46,7 @@
       "ok": true,
       "status": 200,
       "content_type": "text/html; charset=utf-8",
-      "latency_ms": 983.3,
+      "latency_ms": 1051.5,
       "rule": "2xx/3xx",
       "retries": 1,
       "error": null
@@ -57,7 +57,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 844.0,
+      "latency_ms": 907.1,
       "rule": "200",
       "retries": 1,
       "error": null
@@ -68,7 +68,7 @@
       "ok": false,
       "status": 502,
       "content_type": "text/html",
-      "latency_ms": 1072.4,
+      "latency_ms": 813.2,
       "rule": "404 JSON",
       "retries": 1,
       "error": null
