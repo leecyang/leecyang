@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16 21:38 UTC",
+  "generated_at": "2026-07-16 22:40 UTC",
   "username": "leecyang",
   "followers": 3,
   "following": 2,
@@ -583,36 +583,5 @@
       }
     }
   ],
-  "top_languages": [
-    {
-      "name": "TypeScript",
-      "bytes": 2208671,
-      "percent": 43.0
-    },
-    {
-      "name": "Python",
-      "bytes": 2111432,
-      "percent": 41.1
-    },
-    {
-      "name": "JavaScript",
-      "bytes": 357058,
-      "percent": 6.9
-    },
-    {
-      "name": "CSS",
-      "bytes": 257163,
-      "percent": 5.0
-    },
-    {
-      "name": "Vue",
-      "bytes": 164779,
-      "percent": 3.2
-    },
-    {
-      "name": "Java",
-      "bytes": 39699,
-      "percent": 0.8
-    }
-  ]
+  "top_languages": []
 }
