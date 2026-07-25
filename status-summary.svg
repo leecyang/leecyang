@@ -17,18 +17,18 @@
       <rect x="198" y="94" width="150" height="90" rx="14" fill="#111827" stroke="#1F2937" />
       <circle cx="222" cy="120" r="7" fill="#22C55E" />
       <text x="238" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Online</text>
-      <text x="218" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">3</text>
+      <text x="218" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">4</text>
 
       <rect x="368" y="94" width="150" height="90" rx="14" fill="#111827" stroke="#1F2937" />
       <circle cx="392" cy="120" r="7" fill="#EF4444" />
       <text x="408" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Offline</text>
-      <text x="388" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">3</text>
+      <text x="388" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">2</text>
 
       <rect x="538" y="94" width="150" height="90" rx="14" fill="#111827" stroke="#1F2937" />
       <circle cx="562" cy="120" r="7" fill="#F59E0B" />
       <text x="578" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Avg Latency</text>
-      <text x="558" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">1033.1 ms</text>
+      <text x="558" y="160" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#E5E7EB">1214.6 ms</text>
 
-      <text x="28" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Generated at 2026-07-25 05:46 UTC · README-embedded ops snapshot</text>
+      <text x="28" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#94A3B8">Generated at 2026-07-25 07:04 UTC · README-embedded ops snapshot</text>
 
 </svg>
