@@ -1,346 +1,181 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1d4ed8,100:0f766e&height=210&section=header&text=%E6%9D%8E%E6%89%BF%E9%98%B3&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%E5%8D%97%E4%BA%AC%E5%86%9C%E4%B8%9A%E5%A4%A7%E5%AD%A6%20%7C%202027%E5%B1%8A%E6%9C%AC%E7%A7%91%E7%94%9F%20%7C%20Full-Stack%20%2F%20FPGA&descAlignY=60&descAlign=50&descSize=18" />
 
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=3000&pause=800&color=38BDF8&center=true&vCenter=true&width=760&lines=%E5%85%A8%E6%A0%88%E5%BC%80%E5%8F%91%E8%80%85;JS%E9%80%86%E5%90%91%E4%B8%8E%E5%8D%8F%E8%AE%AE%E5%88%86%E6%9E%90%E5%AE%9E%E8%B7%B5%E8%80%85;%E7%AE%97%E5%AD%90%E5%BC%80%E5%8F%91%E4%B8%8EAI%E5%B7%A5%E5%85%B7%E9%93%BE%E6%8E%A2%E7%B4%A2%E8%80%85;FPGA%E4%B8%8E%E6%95%B0%E5%AD%97%E7%B3%BB%E7%BB%9F%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%B7%B5%E8%80%85;Vibe%20Coding%E9%87%8D%E5%BA%A6%E4%BE%9D%E8%B5%96%E8%80%85)](https://git.io/typing-svg)
-</div>
+# 李承阳 <sup><sub>LEECYANG</sub></sup>
 
----
+<samp>AI INFRA · OPERATOR OPTIMIZATION · EDGE SYSTEMS</samp>
 
-<div align="center">
-  <p>
-    <a href="https://github.com/leecyang">
-      <img src="https://img.shields.io/badge/GitHub-@leecyang-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" />
-    </a>
-    <a href="mailto:3439550021@qq.com">
-      <img src="https://img.shields.io/badge/Email-3439550021%40qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
-    <a>
-      <img src="https://komarev.com/ghpvc/?username=leecyang&color=0ea5e9&style=for-the-badge&label=PROFILE+VIEWS" />
-    </a>
-    <a>
-      <img src="https://img.shields.io/github/followers/leecyang?label=FOLLOWERS&style=for-the-badge&color=0ea5e9&logo=github&logoColor=white" />
-    </a>
-  </p>
+<sub>南京农业大学 · 电子信息工程技术 · 2027 届</sub>
 
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=3500&pause=1500&color=5EEAD4&center=true&vCenter=true&width=760&lines=%E5%81%9A%E8%83%BD%E8%B7%91%E8%B5%B7%E6%9D%A5%E7%9A%84%E7%B3%BB%E7%BB%9F%EF%BC%8C%E4%B9%9F%E5%81%9A%E8%83%BD%E8%A7%A3%E9%87%8A%E6%B8%85%E6%A5%9A%E7%9A%84%E5%B7%A5%E7%A8%8B%E3%80%82" />
-</div>
+<br><br>
 
----
-
-## Hero Banner
-
-```text
-> booting profile/leecyang ...
-> mode: builder | reverser | operator | fpga tinkerer
-> status: caffeinated enough, still shipping
-> attitude: professional, slightly lazy, heavily terminal-shaped
-```
-
-我喜欢把复杂问题拆开、跑通、再慢慢抛光。能写前后端的时候我会直接把链路收完整；需要往下钻的时候，就去看协议、看实现、看性能瓶颈，或者去跟 Verilog / SystemVerilog 打交道。
-
-如果一个东西最后不能稳定跑起来，我一般不会太相信它的故事。  
-
----
-
-## 🧠 About Me
-
-```bash
-$ whoami
-李承阳
-
-$ cat /etc/role
-南京农业大学本科在读（预计 2027 年毕业）
-
-$ ls ./focus
-全栈开发  算子开发  JS逆向  FPGA
-
-$ cat ./current_status
-- 正在把 AI 工具链、多模态应用和自动化工具做得更像产品
-- 继续研究协议、接口行为和浏览器侧交互路径
-- 在 FPGA / 数字系统项目里练时序、控制逻辑和模块化设计
-
-$ echo $MOTTO
-做能跑起来、能长期维护、也能解释清楚的系统。
-```
-
-我目前是南京农业大学本科在读学生，主要把时间花在两类问题上：一类是面向真实使用场景的全栈系统，另一类是更偏底层和工程化的问题，比如算子开发、协议分析、JS 逆向以及 FPGA 数字系统设计。
-
-公开项目里，你会看到我在 AI 应用、自动化工具、图像处理、前后端协同和硬件实验上的不同尝试；私下里，我也会继续做一些偏工具链、浏览器协议和效率系统方向的项目，把想法尽量打磨成真正可用的东西。整体上我不太追求“看起来很忙”，更在意系统能不能长期稳定地跑。
-
----
-
-## ⚡ Current Focus
-
-<div align="center">
-
-| 方向 | 正在做的事情 |
-|---|---|
-| 全栈开发 | 把产品体验、接口设计、部署链路和长期可维护性串成一个完整闭环 |
-| 算子开发 | 关注更底层的实现方式、性能组织和复用能力 |
-| JS逆向 | 研究前端协议、接口行为与自动化交互路径 |
-| FPGA | 持续做 Verilog / SystemVerilog 数字系统项目，强化时序与控制逻辑能力 |
+[项目](#03--项目记录)　·　[代码](#04--公开代码)　·　[邮件](mailto:3439550021@qq.com)
 
 </div>
 
----
-
-## Live Ops / Monitoring
-
-<div align="center">
-  <img width="88%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/status-summary.svg" alt="Monitoring summary" />
-  <br /><br />
-  <img width="96%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/status-grid.svg" alt="Monitoring grid" />
-</div>
-
-我把几个真实在跑的站点和 API 挂到了主页里，读数逻辑更偏运维视角，不只是“有没有个链接”。普通站点按 `2xx/3xx` 判活，`letsapi.store/v1/responses` 这类边界接口则按固定 `404 JSON` 视为在线，`golibrary.xyz` 还额外带了一层重试，尽量少报假警。
-
----
-
-## ⚙️ Tech Stack
-
-```text
-stack.index
-├── languages      -> JavaScript / TypeScript / Python / Java / C++ / Verilog / SystemVerilog
-├── frontend       -> React / Vue / Vite / Tailwind
-├── backend        -> FastAPI / Express / Spring Boot / Node.js
-├── infra          -> Docker / Cloudflare / GitHub Actions
-└── data_and_ai    -> MySQL / SQLite / Supabase / Redis / OpenCV / YOLO / ONNX / DJL
-```
-
-<div align="center">
-
-### 〔 Languages 〕
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Verilog](https://img.shields.io/badge/Verilog-8B5CF6?style=for-the-badge&logoColor=white)
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-6D28D9?style=for-the-badge&logoColor=white)
-
-### 〔 Frontend 〕
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vue](https://img.shields.io/badge/Vue-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-### 〔 Backend & Engineering 〕
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### 〔 Data & AI 〕
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-111827?style=for-the-badge&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![DJL](https://img.shields.io/badge/DJL-111827?style=for-the-badge&logoColor=white)
-
-</div>
-
-我习惯把技术栈看成工具箱，不太会为了“补关键词”去硬学一圈。大多数时候，选型标准其实很朴素：能不能快速验证，能不能继续扩，出了问题能不能自己修。
-
----
-
-## 🚀 Featured Projects
+<br>
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🌾 AgriVision AI</h3>
-      <p><strong>农业害虫识别平台</strong></p>
-      <p>结合 Vue、Spring Boot、DJL 与 ONNX Runtime 的农业害虫识别系统，围绕真实业务场景组织了前端、后端、推理和部署链路。</p>
-      <p><strong>Stack:</strong> <code>Vue</code> <code>Spring Boot</code> <code>DJL</code> <code>ONNX Runtime</code> <code>MySQL</code></p>
-      <p><a href="https://github.com/leecyang/agrivision-ai">查看项目</a></p>
+    <td align="center" width="25%">
+      <sub>全国大学生计算机系统能力大赛</sub><br>
+      <strong>全国第 1</strong><br>
+      <sub>算子优化赛道</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>📚 WegoLibrary</h3>
-      <p><strong>自托管到馆/签到助手</strong></p>
-      <p>基于 FastAPI + React 的多用户自托管工具，围绕授权解析、状态维护、自动签到和后台管理做了一套完整闭环。</p>
-      <p><strong>Stack:</strong> <code>FastAPI</code> <code>React</code> <code>SQLite</code> <code>Docker Compose</code></p>
-      <p><a href="https://github.com/leecyang/WegoLibrary">查看项目</a></p>
+    <td align="center" width="25%">
+      <sub>Atlas 200I DK A2</sub><br>
+      <strong>15 FPS</strong><br>
+      <sub>3× 实时超分</sub>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌟 LumiVibe</h3>
-      <p><strong>AI 驱动的情绪追踪应用</strong></p>
-      <p>用 React、TypeScript、Express 与 Supabase 构建的照片分析与陪伴式交互应用，重点探索了多模态体验与移动端表达。</p>
-      <p><strong>Stack:</strong> <code>React</code> <code>TypeScript</code> <code>Express</code> <code>Supabase</code></p>
-      <p><a href="https://github.com/leecyang/LumiVibe">查看项目</a></p>
+    <td align="center" width="25%">
+      <sub>端到端推理</sub><br>
+      <strong>&lt; 100 ms</strong><br>
+      <sub>CPU / NPU 协同</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3>🫘 Img2Pindou</h3>
-      <p><strong>拼豆底稿生成 Web 应用</strong></p>
-      <p>支持 AI 风格化与智能像素化的图像处理工具，把图片转换为可执行的拼豆图纸，同时兼顾参数可调性和实际制作可用性。</p>
-      <p><strong>Stack:</strong> <code>FastAPI</code> <code>React</code> <code>Tailwind</code> <code>Image Processing</code></p>
-      <p><a href="https://github.com/leecyang/img2pindou">查看项目</a></p>
+    <td align="center" width="25%">
+      <sub>农业害虫识别</sub><br>
+      <strong>50+ 类 / 95%</strong><br>
+      <sub>平均响应 &lt; 500 ms</sub>
     </td>
   </tr>
 </table>
 
-### 🔧 FPGA / Digital Systems
+## `00 / 自述`
+
+我是李承阳，目前在南京农业大学读电子信息工程技术。
+
+过去一年，我把很多时间花在异构计算和 AI 基础设施上。日常工作包括 Ascend / CUDA 算子优化、模型迁移与量化、显存问题排查，以及推理服务和边缘设备上的工程落地。
+
+我对性能问题很有耐心。一次推理慢在哪里、数据经过了哪些内存、CPU 和 NPU 怎样分工，我通常会沿着调用链一直查下去。这个习惯把我带进了算子开发，也让我开始认真学习运行时、体系结构和并行计算。
+
+## `01 / 主线`
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>⏰ ChronoCore</h3>
-      <p><strong>基于 FPGA 的现代化数字时钟系统</strong></p>
-      <p>使用 Verilog 构建的数字时钟系统，包含时钟、闹钟、秒表、按键消抖、数码管驱动等模块，体现了完整的层次化数字系统设计思路。</p>
-      <p><strong>Stack:</strong> <code>Verilog</code> <code>Quartus</code> <code>ModelSim</code> <code>Cyclone IV</code></p>
-      <p><a href="https://github.com/leecyang/ChronoCore">查看项目</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧺 Washing_Machine_Controller</h3>
-      <p><strong>洗衣机控制器 FPGA 项目</strong></p>
-      <p>基于 SystemVerilog 的控制器设计项目，聚焦有限状态机、时序控制和硬件逻辑组织，是我在 FPGA / 数字电路方向的重要实践之一。</p>
-      <p><strong>Stack:</strong> <code>SystemVerilog</code> <code>FSM</code> <code>Digital Logic</code></p>
-      <p><a href="https://github.com/leecyang/Washing_Machine_Controller">查看项目</a></p>
-    </td>
+    <td width="24%"><strong>算子与性能</strong></td>
+    <td>GEMM、FlashAttention、Winograd；Ascend C、CUDA、Triton；profiling、定位瓶颈、内存访问与并行策略。</td>
+  </tr>
+  <tr>
+    <td><strong>模型系统</strong></td>
+    <td>MindSpore、PyTorch、ONNX；模型迁移、微调、量化、显存调度和多模态能力验证。</td>
+  </tr>
+  <tr>
+    <td><strong>AI 基础设施</strong></td>
+    <td>模型接口适配、推理服务、多智能体工作流、Docker、Nginx 和高并发服务组织。</td>
+  </tr>
+  <tr>
+    <td><strong>边缘与硬件</strong></td>
+    <td>Atlas 200I DK A2、K230、STM32、FPGA；端侧推理、通信协议、时序控制和软硬件协同。</td>
   </tr>
 </table>
 
----
-
-## 🏆 Highlights
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=leecyang&theme=tokyonight&no-frame=true&margin-w=10&column=6" />
-</div>
-
-<br/>
-
-| 方向 | 代表内容 | 说明 |
-|---|---|---|
-| 全栈系统 | WegoLibrary / LumiVibe | 从前端交互到后端接口、状态与部署都自己收口 |
-| AI 应用 | AgriVision AI / Img2Pindou | 把模型能力组织进真实产品链路，而不是只停留在 demo |
-| 硬件实践 | ChronoCore / Washing_Machine_Controller | 持续做 FPGA 与数字系统方向的模块化设计 |
-| 私有项目 | 算子开发 / AI 工具链 / 协议实验 | 目前大部分时间投入在这些更偏工程深水区的方向 |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/github-overview.svg" alt="GitHub overview" />
-  <img height="196" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/github-languages.svg" alt="GitHub languages" />
-</div>
-
-<div align="center">
-  <br />
-  <img src="https://streak-stats.demolab.com?user=leecyang&theme=tokyonight&hide_border=true&border_radius=12&locale=zh_Hans" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <br />
-  <img width="84%" src="https://github-readme-activity-graph.vercel.app/graph?username=leecyang&theme=github-compact&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=ffffff&area=true&area_color=22c55e" />
-</div>
-
-<div align="center">
-  <br />
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leecyang/leecyang/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/leecyang/leecyang/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/leecyang/leecyang/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-## GIF Demo
-
-<div align="center">
-  <img width="92%" src="https://raw.githubusercontent.com/leecyang/leecyang/refs/heads/generated/live-sites-demo.gif" alt="Live sites demo" />
-</div>
-
-这段 GIF 会从你真实在线的站点抓取画面，按天刷新。比起凭空拼概念图，我更喜欢让主页直接展示“现在正在跑的东西长什么样”。
-
----
-
-## Architecture
-
-```mermaid
-flowchart LR
-    A["Monitored Targets<br/>golibrary / lingxilearn / christmas1314 / lyyzka / letsapi"] --> B["GitHub Actions<br/>15 min probes + daily demo refresh"]
-    B --> C["Python Probes<br/>status.json + status-summary.svg + status-grid.svg"]
-    B --> D["GitHub API Renderer<br/>github-overview.svg + github-languages.svg"]
-    B --> E["Playwright Capture + Pillow GIF<br/>live-sites-demo.gif"]
-    C --> F["generated branch assets"]
-    D --> F
-    E --> F
-    F --> G["Profile README"]
-```
-
-```mermaid
-flowchart TD
-    U["Users"] --> W1["golibrary.xyz"]
-    U --> W2["lingxilearn.cn"]
-    U --> W3["christmas1314.xyz"]
-    U --> W4["lyyzka.xyz"]
-    U --> G1["gen.letsapi.store/overview"]
-    U --> G2["letsapi.store/v1/responses"]
-    M["README Monitoring Layer"] --> W1
-    M --> W2
-    M --> W3
-    M --> W4
-    M --> G1
-    M --> G2
-```
-
----
-
-## Auto Update
+<details>
+<summary><strong>常用语言与工具</strong></summary>
+<br>
 
 ```text
-refresh-assets.yml
-├── every 15 minutes -> probe sites + regenerate monitoring and GitHub SVG cards
-├── every day 03:00 UTC -> refresh site screenshots and rebuild demo GIF
-└── push / manual run -> full refresh
+C++ / Python / Java / TypeScript / Verilog / SystemVerilog
+AscendCL / MindSpore / PyTorch / ONNX / OpenCV / DJL
+Docker / Nginx / GitHub Actions / MySQL / Redis
 ```
 
-主页上的监控卡、统计卡和演示图都不是手工维护的。它们会自己刷新，坏了就会显示出来，活着就一直亮着。
+</details>
 
----
+## `02 / 竞赛与校园经历`
 
-## 🔬 Private Work Directions
+| 记录 | 结果 |
+|:--|:--|
+| 全国大学生计算机系统能力大赛「先导杯」 | 算子优化赛道全国第 1 名 |
+| 天翼云「息壤杯」高校 AI 大赛 | 算子优化赛道全国第 24 名 |
+| 多智能体项目「灵犀智学」 | 项目负责人，入围挑战杯省赛 |
+| 南京农业大学 | 电子信息工程技术本科，2023—2027，专业前 40% |
 
-虽然很多正在推进的项目暂时没有公开，但它们基本都围绕下面几条主线展开：
+## `03 / 项目记录`
 
-- **算子开发**：更偏底层实现和性能组织的问题，关注可复用性与工程落地。
-- **AI 工具链**：包括模型接入、多模态处理、工作流串联和开发体验优化。
-- **浏览器 / 协议相关实验**：聚焦 JS 逆向、接口分析、自动化与实际业务协议交互。
-- **个人效率系统**：把日常反复出现的流程产品化，做成可以长期运行的小系统。
+<details open>
+<summary><strong>01　Atlas 200I DK A2 实时超分系统</strong>　<sub>核心开发 · 2025.08—2025.10</sub></summary>
+<br>
 
----
+面向昇腾 310B 边缘平台，我设计了一条从 V4L2 采集、CPU/NPU 协同处理到 HDMI 输出的低延迟流水线。
 
-## 🤝 Connect With Me
+FSRCNN 模型迁移到 MindSpore 后，我使用图模式、数据下沉和 AMP O3 缩短训练时间，再通过 ATC 导出 OM 模型。推理阶段只把 YCrCb 的亮度通道交给 NPU，色度插值由 CPU 并行处理；AscendCL/C++ 负责内存、模型和任务队列管理。
+
+最终结果：3× 超分稳定超过 15 FPS，端到端延迟低于 100 ms，PSNR 超过 30 dB，SSIM 超过 0.9。
+
+`MindSpore`　`AscendCL`　`C++`　`V4L2`　`HDMI`
+
+</details>
+
+<details>
+<summary><strong>02　Open WebUI 多智能体平台与推理服务</strong>　<sub>全栈开发 · 2025.07—2025.10</sub></summary>
+<br>
+
+我重构了 Open WebUI 的模型接入层，适配九天、阿里云百炼和 Coze 的接口差异，并加入数据库查询、API 调用等 Agent 工作流。服务通过 Docker 和 Nginx 部署到公网，日常维护涵盖模型路由、并发请求与异常恢复。
+
+`Open WebUI`　`Agent`　`Docker`　`Nginx`　`API Integration`
+
+</details>
+
+<details>
+<summary><strong>03　K230 视觉识别与激光打靶小车</strong>　<sub>视觉模块 · 2025.06—2025.07</sub></summary>
+<br>
+
+我负责数据标注、YOLOv5 训练、INT8 量化和 K230 NPU 部署，同时编写 K230 与 STM32 之间的通信协议。检测结果通过串口送入主控，驱动机械云台完成实时跟踪。主要调试内容集中在端侧资源占用、推理时延、串口时序和控制闭环。
+
+`YOLOv5`　`K230`　`INT8`　`STM32`　`Serial Protocol`
+
+</details>
+
+<details>
+<summary><strong>04　大模型微调与多模态部署</strong>　<sub>AI 工程 · 2025.02—2025.05</sub></summary>
+<br>
+
+基于 MindSpore 和 MindNLP 完成 DeepSeek-R1-Distill-Qwen-1.5B 的数据处理、环境搭建、微调与验证。针对目标硬件上的显存瓶颈，我重构了训练脚本和显存调度逻辑，解决 OOM 并稳定训练过程。随后完成 Janus-Pro 的源码级适配，处理编译环境和底层依赖，使图像理解与文本生图能力能在本地运行。
+
+`MindSpore`　`MindNLP`　`DeepSeek-R1`　`Janus-Pro`　`Fine-tuning`
+
+</details>
+
+<details>
+<summary><strong>05　农业害虫识别平台</strong>　<sub>项目发起人 / 全栈开发 · 2024.10—2024.11</sub></summary>
+<br>
+
+我从零搭建了 Vue + Spring Boot 的前后端分离系统，在 Java 服务中通过 DJL 直接运行 ONNX 模型。Redis 用于缓存热点数据，Docker Compose 负责服务编排。系统覆盖 50 余种害虫，识别准确率约 95%，平均接口响应控制在 500 ms 内。
+
+[`leecyang/agrivision-ai ↗`](https://github.com/leecyang/agrivision-ai)
+
+`Vue`　`Spring Boot`　`DJL`　`ONNX`　`Redis`
+
+</details>
+
+## `04 / 公开代码`
+
+<table>
+  <tr>
+    <td width="31%"><a href="https://github.com/leecyang/mindyolo"><strong>mindyolo ↗</strong></a><br><sub>Python · MindSpore</sub></td>
+    <td>基于 MindSpore 的 YOLO 系列工具箱，记录目标检测模型与训练链路相关实践。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/agrivision-ai"><strong>agrivision-ai ↗</strong></a><br><sub>Vue · Java · ONNX</sub></td>
+    <td>农业害虫识别平台，包含前端、后端、模型推理、缓存和容器化部署。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/ChronoCore"><strong>ChronoCore ↗</strong></a><br><sub>Verilog · FPGA</sub></td>
+    <td>包含时钟、闹钟、秒表、按键消抖和数码管驱动的数字系统项目。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/Washing_Machine_Controller"><strong>Washing Machine Controller ↗</strong></a><br><sub>SystemVerilog</sub></td>
+    <td>围绕有限状态机、时序控制和模块验证完成的控制器设计。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/PGA-prediction-engineering-education"><strong>PGA prediction ↗</strong></a><br><sub>Python · Machine Learning</sub></td>
+    <td>面向工程教育场景的学生表现预测基线系统。</td>
+  </tr>
+</table>
+
+<br>
 
 <div align="center">
-  <a href="mailto:3439550021@qq.com">
-    <img src="https://img.shields.io/badge/Email-3439550021%40qq.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/leecyang">
-    <img src="https://img.shields.io/badge/GitHub-@leecyang-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
 
-<div align="center">
-  <br />
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-  <br /><br />
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f766e,50:1d4ed8,100:0f172a&height=120&section=footer&animation=fadeIn" />
-  <sub>用工程化的方法做长期有效的东西。</sub>
+<samp>南京 · 2027 届 · 3439550021@qq.com</samp>
+
 </div>
