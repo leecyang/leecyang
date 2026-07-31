@@ -1,45 +1,44 @@
+```text
+╭─░▒▓█  PROFILE / BOOT SEQUENCE  █▓▒░──────────────────────────
+│
+│   ██╗      ██████╗██╗   ██╗
+│   ██║     ██╔════╝╚██╗ ██╔╝
+│   ██║     ██║      ╚████╔╝
+│   ██║     ██║       ╚██╔╝
+│   ███████╗╚██████╗   ██║
+│   ╚══════╝ ╚═════╝   ╚═╝
+│
+│   李承阳 / LEECYANG
+│   AI INFRA · OPERATOR OPTIMIZATION · EDGE SYSTEMS
+│
+├─░▒▓  SESSION INFO  ▓▒░───────────────────────────────────────
+│   user       leecyang
+│   education  南京农业大学 · 电子信息工程技术 · 2027
+│   current    LingXi-Org / LingxiGraph / LingxiNext
+│   location   Nanjing, China
+│   status     learning · profiling · shipping
+│
+╰──────────────────────────────────────────────────────────────
+```
+
 <div align="center">
 
-# 李承阳 <sup><sub>LEECYANG</sub></sup>
-
-<samp>AI INFRA · OPERATOR OPTIMIZATION · EDGE SYSTEMS</samp>
-
-<sub>南京农业大学 · 电子信息工程技术 · 2027 届</sub>
-
-<br><br>
-
-[项目](#03--项目记录)　·　[代码](#04--公开代码)　·　[邮件](mailto:3439550021@qq.com)
+[`LingxiGraph`](https://github.com/LingXi-Org/LingxiGraph)　·　[`LingxiNext`](https://github.com/LingXi-Org/LingxiNext)　·　[`source`](https://github.com/leecyang?tab=repositories)　·　[`mail`](mailto:3439550021@qq.com)
 
 </div>
 
-<br>
+```text
+╭─░▒▓█  HIGHLIGHTS  █▓▒░───────────────────────────────────────
+│
+│  █  01  全国第 1       计算机系统能力大赛 · 算子优化赛道
+│  ▓  02  15 FPS         Atlas 200I DK A2 · 3× 实时超分
+│  ▒  03  < 100 ms       端到端推理 · CPU / NPU 协同
+│  ░  04  50+ 类 / 95%   农业害虫识别 · 平均响应 < 500 ms
+│
+╰────────────────────────────── 4 records loaded ───────────────
+```
 
-<table>
-  <tr>
-    <td align="center" width="25%">
-      <sub>全国大学生计算机系统能力大赛</sub><br>
-      <strong>全国第 1</strong><br>
-      <sub>算子优化赛道</sub>
-    </td>
-    <td align="center" width="25%">
-      <sub>Atlas 200I DK A2</sub><br>
-      <strong>15 FPS</strong><br>
-      <sub>3× 实时超分</sub>
-    </td>
-    <td align="center" width="25%">
-      <sub>端到端推理</sub><br>
-      <strong>&lt; 100 ms</strong><br>
-      <sub>CPU / NPU 协同</sub>
-    </td>
-    <td align="center" width="25%">
-      <sub>农业害虫识别</sub><br>
-      <strong>50+ 类 / 95%</strong><br>
-      <sub>平均响应 &lt; 500 ms</sub>
-    </td>
-  </tr>
-</table>
-
-## `00 / 自述`
+## `█▓▒░` `$ whoami --verbose`
 
 我是李承阳，目前在南京农业大学读电子信息工程技术。
 
@@ -47,135 +46,173 @@
 
 我对性能问题很有耐心。一次推理慢在哪里、数据经过了哪些内存、CPU 和 NPU 怎样分工，我通常会沿着调用链一直查下去。这个习惯把我带进了算子开发，也让我开始认真学习运行时、体系结构和并行计算。
 
-## `01 / 主线`
+## `█▓▒░` `$ cat /etc/focus.conf`
 
-<table>
-  <tr>
-    <td width="24%"><strong>算子与性能</strong></td>
-    <td>GEMM、FlashAttention、Winograd；Ascend C、CUDA、Triton；profiling、定位瓶颈、内存访问与并行策略。</td>
-  </tr>
-  <tr>
-    <td><strong>模型系统</strong></td>
-    <td>MindSpore、PyTorch、ONNX；模型迁移、微调、量化、显存调度和多模态能力验证。</td>
-  </tr>
-  <tr>
-    <td><strong>AI 基础设施</strong></td>
-    <td>模型接口适配、推理服务、多智能体工作流、Docker、Nginx 和高并发服务组织。</td>
-  </tr>
-  <tr>
-    <td><strong>边缘与硬件</strong></td>
-    <td>Atlas 200I DK A2、K230、STM32、FPGA；端侧推理、通信协议、时序控制和软硬件协同。</td>
-  </tr>
-</table>
+```ini
+[operator_and_performance]
+topics = GEMM, FlashAttention, Winograd, profiling
+tooling = Ascend C, CUDA, Triton
+
+[model_systems]
+frameworks = MindSpore, PyTorch, ONNX
+work = migration, fine-tuning, quantization, memory scheduling
+
+[ai_infrastructure]
+work = graph runtime, model adapters, inference services, multi-agent workflows
+infra = PostgreSQL, Redis, Docker, Nginx, OpenTelemetry
+
+[edge_and_hardware]
+platforms = Atlas 200I DK A2, K230, STM32, FPGA
+work = on-device inference, protocols, timing control, hardware-software co-design
+```
 
 <details>
-<summary><strong>常用语言与工具</strong></summary>
+<summary><code>$ printenv TOOLBOX</code></summary>
 <br>
 
 ```text
 C++ / Python / Java / TypeScript / Verilog / SystemVerilog
 AscendCL / MindSpore / PyTorch / ONNX / OpenCV / DJL
-Docker / Nginx / GitHub Actions / MySQL / Redis
+FastAPI / PostgreSQL / Redis / Docker / Nginx / GitHub Actions
 ```
 
 </details>
 
-## `02 / 竞赛与校园经历`
+## `█▓▒░` `$ systemctl --user status lingxi.target`
 
-| 记录 | 结果 |
-|:--|:--|
-| 全国大学生计算机系统能力大赛「先导杯」 | 算子优化赛道全国第 1 名 |
-| 天翼云「息壤杯」高校 AI 大赛 | 算子优化赛道全国第 24 名 |
-| 多智能体项目「灵犀智学」 | 项目负责人，入围挑战杯省赛 |
-| 南京农业大学 | 电子信息工程技术本科，2023—2027，专业前 40% |
+```console
+█ lingxi.target — open-source multi-agent infrastructure
+├──▓ Loaded   LingXi-Org
+├──▓ Active   active (under development)
+├──▒ Units    LingxiGraph.service
+├──▒ Units    LingxiNext.service
+└──░ Docs     https://docs.lingxilearn.cn
+```
 
-## `03 / 项目记录`
+我创建了 [`LingXi-Org`](https://github.com/LingXi-Org)，目前把主要开发精力放在下面两个项目。一个处理运行时和耐久执行，另一个负责具体的多智能体编排与交互界面。
 
 <details open>
-<summary><strong>01　Atlas 200I DK A2 实时超分系统</strong>　<sub>核心开发 · 2025.08—2025.10</sub></summary>
+<summary><code>[ACTIVE] LingXi-Org/LingxiGraph · v2.0.1</code></summary>
 <br>
 
-面向昇腾 310B 边缘平台，我设计了一条从 V4L2 采集、CPU/NPU 协同处理到 HDMI 输出的低延迟流水线。
+[`LingxiGraph`](https://github.com/LingXi-Org/LingxiGraph) 是一个模型供应商中立的耐久多智能体图运行时。它把普通 Python 函数组装成状态图，并提供持久化、失败恢复、流式事件和人工中断。
 
-FSRCNN 模型迁移到 MindSpore 后，我使用图模式、数据下沉和 AMP O3 缩短训练时间，再通过 ATC 导出 OM 模型。推理阶段只把 YCrCb 的亮度通道交给 NPU，色度插值由 CPU 并行处理；AscendCL/C++ 负责内存、模型和任务队列管理。
+```text
+runtime      Pregel-style plan → execute → commit
+durability   typed checkpoint / pending writes / replay / fork
+patterns     supervisor / handoff / swarm / plan-execute / map-reduce
+control      PostgreSQL lease queue / idempotency / budget / redrive
+protocols    REST / resumable SSE / Python SDK / A2A / MCP
+safety       OIDC / RBAC / tenant isolation / PostgreSQL RLS / audit
+delivery     Docker Compose / Helm / OpenTelemetry / SBOM
+```
 
-最终结果：3× 超分稳定超过 15 FPS，端到端延迟低于 100 ms，PSNR 超过 30 dB，SSIM 超过 0.9。
+核心运行时位于 [`graph/executor.py`](https://github.com/LingXi-Org/LingxiGraph/blob/main/src/lingxigraph/graph/executor.py)。并行节点按编译计划执行，状态更新在超步边界确定性归并；异步 checkpoint writer 保证写入顺序。服务端 Worker 采用租约领取任务，带心跳、重试、取消和 dead-letter/redrive 处理。
 
-`MindSpore`　`AscendCL`　`C++`　`V4L2`　`HDMI`
+`Python 3.11+`　`FastAPI`　`PostgreSQL`　`Redis`　`OpenTelemetry`　`MIT`
+
+</details>
+
+<details open>
+<summary><code>[ACTIVE] LingXi-Org/LingxiNext</code></summary>
+<br>
+
+[`LingxiNext`](https://github.com/LingXi-Org/LingxiNext) 是基于 LingxiGraph 与原生 Chainlit 的版本化多智能体编排平台。FastAPI、Chainlit、管理后台和图运行时放在同一进程中，PostgreSQL 保存会话、revision 和 checkpoint。
+
+```text
+revision     草稿发布后不可变；历史会话固定到原 revision
+templates    topic_auction / supervisor / handoff / parallel_review / plan_execute
+validation   节点角色 / 允许边 / 必需拓扑 / 循环 / 可达性 / 运行上限
+secrets      Fernet 加密 / 掩码返回 / 不进入图状态
+web          native Chainlit / Jinja2 admin / SVG graph canvas
+runtime      embedded LingxiGraph / PostgreSQL checkpoint
+```
+
+[`graph_templates.py`](https://github.com/LingXi-Org/LingxiNext/blob/main/app/graph_templates.py) 负责模板约束、拓扑校验和 revision 编译。管理员只能从受约束模板构图，无法上传 Python 或任意 callable；身份验证、Argon2 密码、CSRF 和 Token 加密集中在 [`security.py`](https://github.com/LingXi-Org/LingxiNext/blob/main/app/security.py)。
+
+`Python`　`JavaScript`　`Chainlit`　`FastAPI`　`PostgreSQL`　`Docker`
+
+</details>
+
+## `█▓▒░` `$ find ~/projects -maxdepth 1 -type d -print`
+
+<details open>
+<summary><code>./WegoLibrary</code>　<sub>FastAPI · React · SQLite</sub></summary>
+<br>
+
+[`WegoLibrary`](https://github.com/leecyang/WegoLibrary) 是一个多用户、自托管的到馆与签到助手。仓库包含授权链接解析、微信会话交换、GraphQL 请求、定时任务、用户隔离和 Docker Compose 部署。
+
+协议侧需要处理 HTTP/HTTPS 混合入口、重复 Cookie、短期授权码、TLS EOF 和上游限流。[`traceint_client.py`](https://github.com/leecyang/WegoLibrary/blob/main/backend/app/traceint_client.py) 为这些情况加入双会话换票、重试退避、最小查询校验和明确的错误分类。
 
 </details>
 
 <details>
-<summary><strong>02　Open WebUI 多智能体平台与推理服务</strong>　<sub>全栈开发 · 2025.07—2025.10</sub></summary>
+<summary><code>./NJAU-Auth</code>　<sub>Python · HTTPX · CAS</sub></summary>
 <br>
 
-我重构了 Open WebUI 的模型接入层，适配九天、阿里云百炼和 Coze 的接口差异，并加入数据库查询、API 调用等 Agent 工作流。服务通过 Docker 和 Nginx 部署到公网，日常维护涵盖模型路由、并发请求与异常恢复。
+[`NJAU-Auth`](https://github.com/leecyang/NJAU-Auth) 用纯 HTTP 完成南京农业大学统一身份认证，不依赖浏览器自动化。登录流程会提取 `execution` 与动态盐，按 CAS 页面规则生成 AES-128-CBC 密文，并处理图形验证码、短信二次验证与 Cookie 恢复。
 
-`Open WebUI`　`Agent`　`Docker`　`Nginx`　`API Integration`
+仓库已经整理成可安装的 Python 包，提供异步 API、CLI 和基于 `httpx.MockTransport` 的协议测试。
 
 </details>
 
 <details>
-<summary><strong>03　K230 视觉识别与激光打靶小车</strong>　<sub>视觉模块 · 2025.06—2025.07</sub></summary>
+<summary><code>./memos2bark</code>　<sub>TypeScript · Cloudflare Workers · KV</sub></summary>
 <br>
 
-我负责数据标注、YOLOv5 训练、INT8 量化和 K230 NPU 部署，同时编写 K230 与 STM32 之间的通信协议。检测结果通过串口送入主控，驱动机械云台完成实时跟踪。主要调试内容集中在端侧资源占用、推理时延、串口时序和控制闭环。
+[`memos2bark`](https://github.com/leecyang/memos2bark) 把 Memos 动态转发到 Bark。Worker 支持自助注册 webhook、多用户配置、多个 Bark 端点、事件归一化和五分钟去重；Memos Token 只参与注册，不写入 KV。
 
-`YOLOv5`　`K230`　`INT8`　`STM32`　`Serial Protocol`
+项目保持单 Worker 结构，包含类型检查、测试和 Cloudflare 一键部署配置。
 
 </details>
 
 <details>
-<summary><strong>04　大模型微调与多模态部署</strong>　<sub>AI 工程 · 2025.02—2025.05</sub></summary>
+<summary><code>./ChronoCore</code>　<sub>Verilog · Cyclone IV · ModelSim</sub></summary>
 <br>
 
-基于 MindSpore 和 MindNLP 完成 DeepSeek-R1-Distill-Qwen-1.5B 的数据处理、环境搭建、微调与验证。针对目标硬件上的显存瓶颈，我重构了训练脚本和显存调度逻辑，解决 OOM 并稳定训练过程。随后完成 Janus-Pro 的源码级适配，处理编译环境和底层依赖，使图像理解与文本生图能力能在本地运行。
+[`ChronoCore`](https://github.com/leecyang/ChronoCore) 是一个模块化 FPGA 数字时钟。顶层连接时钟分频、按键消抖、模式 FSM、时间计数、闹钟、秒表和六位数码管扫描，并附带测试平台与 Quartus 工程文件。
 
-`MindSpore`　`MindNLP`　`DeepSeek-R1`　`Janus-Pro`　`Fine-tuning`
+这个仓库保留了我在数字逻辑、跨模块信号组织和时序控制上的早期实践。
 
 </details>
 
 <details>
-<summary><strong>05　农业害虫识别平台</strong>　<sub>项目发起人 / 全栈开发 · 2024.10—2024.11</sub></summary>
+<summary><code>./agrivision-ai</code>　<sub>Vue · Spring Boot · DJL · ONNX</sub></summary>
 <br>
 
-我从零搭建了 Vue + Spring Boot 的前后端分离系统，在 Java 服务中通过 DJL 直接运行 ONNX 模型。Redis 用于缓存热点数据，Docker Compose 负责服务编排。系统覆盖 50 余种害虫，识别准确率约 95%，平均接口响应控制在 500 ms 内。
-
-[`leecyang/agrivision-ai ↗`](https://github.com/leecyang/agrivision-ai)
-
-`Vue`　`Spring Boot`　`DJL`　`ONNX`　`Redis`
+[`agrivision-ai`](https://github.com/leecyang/agrivision-ai) 是一个农业害虫识别课程项目。仓库覆盖 Vue 前端、Spring Boot API、MySQL 数据层、DJL/ONNX 推理入口和 Docker Compose，用来练习模型能力与 Java Web 服务的整合。
 
 </details>
 
-## `04 / 公开代码`
+## `█▓▒░` `$ grep -R "worth_reading" ~/src`
 
-<table>
-  <tr>
-    <td width="31%"><a href="https://github.com/leecyang/mindyolo"><strong>mindyolo ↗</strong></a><br><sub>Python · MindSpore</sub></td>
-    <td>基于 MindSpore 的 YOLO 系列工具箱，记录目标检测模型与训练链路相关实践。</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/leecyang/agrivision-ai"><strong>agrivision-ai ↗</strong></a><br><sub>Vue · Java · ONNX</sub></td>
-    <td>农业害虫识别平台，包含前端、后端、模型推理、缓存和容器化部署。</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/leecyang/ChronoCore"><strong>ChronoCore ↗</strong></a><br><sub>Verilog · FPGA</sub></td>
-    <td>包含时钟、闹钟、秒表、按键消抖和数码管驱动的数字系统项目。</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/leecyang/Washing_Machine_Controller"><strong>Washing Machine Controller ↗</strong></a><br><sub>SystemVerilog</sub></td>
-    <td>围绕有限状态机、时序控制和模块验证完成的控制器设计。</td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/leecyang/PGA-prediction-engineering-education"><strong>PGA prediction ↗</strong></a><br><sub>Python · Machine Learning</sub></td>
-    <td>面向工程教育场景的学生表现预测基线系统。</td>
-  </tr>
-</table>
+下面这些文件更能说明我的代码取向。链接直接落到实现，不按仓库热度排序。
 
-<br>
+| path | why it is here |
+|:--|:--|
+| [`LingxiGraph/graph/executor.py`](https://github.com/LingXi-Org/LingxiGraph/blob/main/src/lingxigraph/graph/executor.py) | Pregel 超步执行、并行任务归并、checkpoint、interrupt、budget 和 cancellation 集中在同一个不可变编译图模型中。 |
+| [`LingxiGraph/server/worker.py`](https://github.com/LingXi-Org/LingxiGraph/blob/main/src/lingxigraph/server/worker.py) | 租约式分布式 Worker，包含心跳、优雅 drain、失败分类、重试与暂停恢复。 |
+| [`LingxiNext/graph_templates.py`](https://github.com/LingXi-Org/LingxiNext/blob/main/app/graph_templates.py) | 五类多智能体拓扑的服务端校验与编译，约束角色、边、循环、入口可达性和运行上限。 |
+| [`NJAU-Auth/auth_client.py`](https://github.com/leecyang/NJAU-Auth/blob/main/src/njau_auth/auth_client.py) | 纯 HTTP CAS 状态机，覆盖动态盐加密、验证码重试、短信 re-auth、Cookie 导入导出和明确异常类型。 |
+| [`WegoLibrary/traceint_client.py`](https://github.com/leecyang/WegoLibrary/blob/main/backend/app/traceint_client.py) | 对不稳定第三方协议的防御式封装：双会话、换票校验、TLS/连接错误重试和响应降级解析。 |
+| [`memos2bark/src/index.ts`](https://github.com/leecyang/memos2bark/blob/main/src/index.ts) | 在单个 Cloudflare Worker 中完成 webhook 注册、鉴权、KV 配置、事件去重与并发推送。 |
+| [`ChronoCore/digital_clock_top.v`](https://github.com/leecyang/ChronoCore/blob/main/digital_clock_top.v) | 顶层 RTL 集成，连接分频、消抖、FSM、计时和显示模块，适合从硬件边界观察模块划分。 |
 
-<div align="center">
+## `█▓▒░` `$ cat ~/records/competitions.log`
 
-<samp>南京 · 2027 届 · 3439550021@qq.com</samp>
+```text
+[rank 01] 全国大学生计算机系统能力大赛「先导杯」 / 算子优化赛道全国第 1 名
+[rank 24] 天翼云「息壤杯」高校 AI 大赛 / 算子优化赛道全国第 24 名
+[project] 多智能体项目「灵犀智学」 / 项目负责人 / 入围挑战杯省赛
+[degree ] 南京农业大学 / 电子信息工程技术 / 2023—2027 / 专业前 40%
+```
 
-</div>
+```console
+╭─░▒▓█  END OF BUFFER  █▓▒░────────────────────────────────────╮
+│                                                              │
+│  leecyang@github:~/profile $ contact --mail                  │
+│  > 3439550021@qq.com                                        │
+│  ████████████████████████████████████  connection ready.    │
+│                                                              │
+╰──────────────────────────────────────────────────────────────╯
+```
