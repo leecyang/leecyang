@@ -1,24 +1,23 @@
 ```text
-╭─░▒▓█  PROFILE / BOOT SEQUENCE  █▓▒░──────────────────────────
+╭─[●]─[○]─[○]─ leecyang@github:~/profile ─────────────────────────────────────
 │
-│   ██╗      ██████╗██╗   ██╗
-│   ██║     ██╔════╝╚██╗ ██╔╝
-│   ██║     ██║      ╚████╔╝
-│   ██║     ██║       ╚██╔╝
-│   ███████╗╚██████╗   ██║
-│   ╚══════╝ ╚═════╝   ╚═╝
+│  ██╗     ███████╗███████╗ ██████╗██╗   ██╗ █████╗ ███╗   ██╗ ██████╗
+│  ██║     ██╔════╝██╔════╝██╔════╝╚██╗ ██╔╝██╔══██╗████╗  ██║██╔════╝
+│  ██║     █████╗  █████╗  ██║      ╚████╔╝ ███████║██╔██╗ ██║██║  ███╗
+│  ██║     ██╔══╝  ██╔══╝  ██║       ╚██╔╝  ██╔══██║██║╚██╗██║██║   ██║
+│  ███████╗███████╗███████╗╚██████╗   ██║   ██║  ██║██║ ╚████║╚██████╔╝
+│  ╚══════╝╚══════╝╚══════╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝
 │
-│   李承阳 / LEECYANG
-│   AI INFRA · OPERATOR OPTIMIZATION · EDGE SYSTEMS
+│  李承阳  //  AI INFRA · OPERATOR OPTIMIZATION · EDGE SYSTEMS
 │
-├─░▒▓  SESSION INFO  ▓▒░───────────────────────────────────────
-│   user       leecyang
-│   education  南京农业大学 · 电子信息工程技术 · 2027
-│   current    LingXi-Org / LingxiGraph / LingxiNext
-│   location   Nanjing, China
-│   status     learning · profiling · shipping
+├─[ SESSION 0x4C4359 ]──────────────────────────────────────────────────────────
+│  USER       ◢  leecyang
+│  EDUCATION  ◢  南京农业大学 · 电子信息工程技术 · 2027
+│  CURRENT    ◆  LingXi-Org / LingxiGraph / LingxiNext
+│  LOCATION   ◇  Nanjing, China
+│  MODES      [█] learning  [▓] profiling  [▒] shipping
 │
-╰──────────────────────────────────────────────────────────────
+╰─❯ boot sequence complete _
 ```
 
 <div align="center">
@@ -28,17 +27,17 @@
 </div>
 
 ```text
-╭─░▒▓█  HIGHLIGHTS  █▓▒░───────────────────────────────────────
+╭─[ HIGHLIGHTS.LOG ]───────────────────────────────────────────────────────────
 │
-│  █  01  全国第 1       计算机系统能力大赛 · 算子优化赛道
-│  ▓  02  15 FPS         Atlas 200I DK A2 · 3× 实时超分
-│  ▒  03  < 100 ms       端到端推理 · CPU / NPU 协同
-│  ░  04  50+ 类 / 95%   农业害虫识别 · 平均响应 < 500 ms
+├─◆  01 / RANK     全国第 1       计算机系统能力大赛 · 算子优化赛道
+├─■  02 / FPS      15 FPS         Atlas 200I DK A2 · 3× 实时超分
+├─▰  03 / LATENCY  < 100 ms       端到端推理 · CPU / NPU 协同
+└─◇  04 / VISION   50+ 类 / 95%   农业害虫识别 · 平均响应 < 500 ms
 │
-╰────────────────────────────── 4 records loaded ───────────────
+╰─[ EOF ]── 4 records loaded ──────────────────────────────────────────────────
 ```
 
-## `█▓▒░` `$ whoami --verbose`
+## `┌─[00 / IDENTITY]` `$ whoami --verbose`
 
 我是李承阳，目前在南京农业大学读电子信息工程技术。
 
@@ -46,7 +45,7 @@
 
 我对性能问题很有耐心。一次推理慢在哪里、数据经过了哪些内存、CPU 和 NPU 怎样分工，我通常会沿着调用链一直查下去。这个习惯把我带进了算子开发，也让我开始认真学习运行时、体系结构和并行计算。
 
-## `█▓▒░` `$ cat /etc/focus.conf`
+## `├─[01 / FOCUS]` `$ cat /etc/focus.conf`
 
 ```ini
 [operator_and_performance]
@@ -67,7 +66,7 @@ work = on-device inference, protocols, timing control, hardware-software co-desi
 ```
 
 <details>
-<summary><code>$ printenv TOOLBOX</code></summary>
+<summary><code>╰─❯ printenv TOOLBOX</code></summary>
 <br>
 
 ```text
@@ -78,21 +77,22 @@ FastAPI / PostgreSQL / Redis / Docker / Nginx / GitHub Actions
 
 </details>
 
-## `█▓▒░` `$ systemctl --user status lingxi.target`
+## `├─[02 / LINGXI]` `$ systemctl --user status lingxi.target`
 
 ```console
-█ lingxi.target — open-source multi-agent infrastructure
-├──▓ Loaded   LingXi-Org
-├──▓ Active   active (under development)
-├──▒ Units    LingxiGraph.service
-├──▒ Units    LingxiNext.service
-└──░ Docs     https://docs.lingxilearn.cn
+● lingxi.target — open-source multi-agent infrastructure
+│
+├─▣ Loaded    LingXi-Org
+├─◉ Active    active (under development)
+├─◆ Core      LingxiGraph.service
+├─◇ App       LingxiNext.service
+└─⌁ Docs      https://docs.lingxilearn.cn
 ```
 
 我创建了 [`LingXi-Org`](https://github.com/LingXi-Org)，目前把主要开发精力放在下面两个项目。一个处理运行时和耐久执行，另一个负责具体的多智能体编排与交互界面。
 
 <details open>
-<summary><code>[ACTIVE] LingXi-Org/LingxiGraph · v2.0.1</code></summary>
+<summary><code>● ACTIVE :: LingXi-Org/LingxiGraph · v2.0.1</code></summary>
 <br>
 
 [`LingxiGraph`](https://github.com/LingXi-Org/LingxiGraph) 是一个模型供应商中立的耐久多智能体图运行时。它把普通 Python 函数组装成状态图，并提供持久化、失败恢复、流式事件和人工中断。
@@ -114,7 +114,7 @@ delivery     Docker Compose / Helm / OpenTelemetry / SBOM
 </details>
 
 <details open>
-<summary><code>[ACTIVE] LingXi-Org/LingxiNext</code></summary>
+<summary><code>● ACTIVE :: LingXi-Org/LingxiNext</code></summary>
 <br>
 
 [`LingxiNext`](https://github.com/LingXi-Org/LingxiNext) 是基于 LingxiGraph 与原生 Chainlit 的版本化多智能体编排平台。FastAPI、Chainlit、管理后台和图运行时放在同一进程中，PostgreSQL 保存会话、revision 和 checkpoint。
@@ -134,10 +134,10 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 
 </details>
 
-## `█▓▒░` `$ find ~/projects -maxdepth 1 -type d -print`
+## `├─[03 / PROJECTS]` `$ find ~/projects -maxdepth 1 -type d`
 
 <details open>
-<summary><code>./WegoLibrary</code>　<sub>FastAPI · React · SQLite</sub></summary>
+<summary><code>◆ PROJECT :: ./WegoLibrary</code>　<sub>FastAPI · React · SQLite</sub></summary>
 <br>
 
 [`WegoLibrary`](https://github.com/leecyang/WegoLibrary) 是一个多用户、自托管的到馆与签到助手。仓库包含授权链接解析、微信会话交换、GraphQL 请求、定时任务、用户隔离和 Docker Compose 部署。
@@ -147,7 +147,7 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 </details>
 
 <details>
-<summary><code>./NJAU-Auth</code>　<sub>Python · HTTPX · CAS</sub></summary>
+<summary><code>◆ LIBRARY :: ./NJAU-Auth</code>　<sub>Python · HTTPX · CAS</sub></summary>
 <br>
 
 [`NJAU-Auth`](https://github.com/leecyang/NJAU-Auth) 用纯 HTTP 完成南京农业大学统一身份认证，不依赖浏览器自动化。登录流程会提取 `execution` 与动态盐，按 CAS 页面规则生成 AES-128-CBC 密文，并处理图形验证码、短信二次验证与 Cookie 恢复。
@@ -157,7 +157,7 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 </details>
 
 <details>
-<summary><code>./memos2bark</code>　<sub>TypeScript · Cloudflare Workers · KV</sub></summary>
+<summary><code>◇ WORKER :: ./memos2bark</code>　<sub>TypeScript · Cloudflare Workers · KV</sub></summary>
 <br>
 
 [`memos2bark`](https://github.com/leecyang/memos2bark) 把 Memos 动态转发到 Bark。Worker 支持自助注册 webhook、多用户配置、多个 Bark 端点、事件归一化和五分钟去重；Memos Token 只参与注册，不写入 KV。
@@ -167,7 +167,7 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 </details>
 
 <details>
-<summary><code>./ChronoCore</code>　<sub>Verilog · Cyclone IV · ModelSim</sub></summary>
+<summary><code>◇ RTL :: ./ChronoCore</code>　<sub>Verilog · Cyclone IV · ModelSim</sub></summary>
 <br>
 
 [`ChronoCore`](https://github.com/leecyang/ChronoCore) 是一个模块化 FPGA 数字时钟。顶层连接时钟分频、按键消抖、模式 FSM、时间计数、闹钟、秒表和六位数码管扫描，并附带测试平台与 Quartus 工程文件。
@@ -177,14 +177,14 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 </details>
 
 <details>
-<summary><code>./agrivision-ai</code>　<sub>Vue · Spring Boot · DJL · ONNX</sub></summary>
+<summary><code>◇ PROJECT :: ./agrivision-ai</code>　<sub>Vue · Spring Boot · DJL · ONNX</sub></summary>
 <br>
 
 [`agrivision-ai`](https://github.com/leecyang/agrivision-ai) 是一个农业害虫识别课程项目。仓库覆盖 Vue 前端、Spring Boot API、MySQL 数据层、DJL/ONNX 推理入口和 Docker Compose，用来练习模型能力与 Java Web 服务的整合。
 
 </details>
 
-## `█▓▒░` `$ grep -R "worth_reading" ~/src`
+## `├─[04 / SOURCE]` `$ grep -R "worth_reading" ~/src`
 
 下面这些文件更能说明我的代码取向。链接直接落到实现，不按仓库热度排序。
 
@@ -198,21 +198,22 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 | [`memos2bark/src/index.ts`](https://github.com/leecyang/memos2bark/blob/main/src/index.ts) | 在单个 Cloudflare Worker 中完成 webhook 注册、鉴权、KV 配置、事件去重与并发推送。 |
 | [`ChronoCore/digital_clock_top.v`](https://github.com/leecyang/ChronoCore/blob/main/digital_clock_top.v) | 顶层 RTL 集成，连接分频、消抖、FSM、计时和显示模块，适合从硬件边界观察模块划分。 |
 
-## `█▓▒░` `$ cat ~/records/competitions.log`
+## `└─[05 / RECORDS]` `$ cat ~/records/competitions.log`
 
 ```text
-[rank 01] 全国大学生计算机系统能力大赛「先导杯」 / 算子优化赛道全国第 1 名
-[rank 24] 天翼云「息壤杯」高校 AI 大赛 / 算子优化赛道全国第 24 名
-[project] 多智能体项目「灵犀智学」 / 项目负责人 / 入围挑战杯省赛
-[degree ] 南京农业大学 / 电子信息工程技术 / 2023—2027 / 专业前 40%
+◆ [rank 01] 全国大学生计算机系统能力大赛「先导杯」 / 算子优化赛道全国第 1 名
+◇ [rank 24] 天翼云「息壤杯」高校 AI 大赛 / 算子优化赛道全国第 24 名
+▣ [project] 多智能体项目「灵犀智学」 / 项目负责人 / 入围挑战杯省赛
+⌁ [degree ] 南京农业大学 / 电子信息工程技术 / 2023—2027 / 专业前 40%
 ```
 
 ```console
-╭─░▒▓█  END OF BUFFER  █▓▒░────────────────────────────────────╮
-│                                                              │
-│  leecyang@github:~/profile $ contact --mail                  │
-│  > 3439550021@qq.com                                        │
-│  ████████████████████████████████████  connection ready.    │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
+╭─[●]─[○]─[○]─ END OF BUFFER ────────────────────────────────────────────────╮
+│                                                                            │
+│  ╭─[leecyang@github]─[~/profile]                                           │
+│  ╰─❯ contact --mail 3439550021@qq.com                                      │
+│                                                                            │
+│  ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰  connection ready              │
+│                                                                            │
+╰─[ process exited with code 0 ]──────────────────────────────────────────────╯
 ```
