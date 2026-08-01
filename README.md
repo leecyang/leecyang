@@ -184,7 +184,61 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 
 </details>
 
-## `├─[04 / SOURCE]` `$ grep -R "worth_reading" ~/src`
+## `├─[04 / AUTOMATION]` `$ ls -la ~/tools | sort`
+
+```text
+╭─[ AUTOMATION TOOLBOX ]───────────────────────────────────────────────────────
+│
+├─🟢 NJAU-Libyy              reservation / check-in / mail / R2 updater
+├─🔵 WegoLibrary             auth exchange / renew / scheduled check-in
+├─🟣 memos2bark              webhook / dedupe / notification fan-out
+├─🟡 NJAU-Auth               CAS login / captcha / SMS / cookie jar
+├─🔴 NJAU-proxy              allowlist / DNS guard / HTTPS egress
+├─🟢 Feishu Cards             form / poll / todo / callback gateway
+├─🔵 Reading Progress         Obsidian scroll tracking / release action
+└─🟣 DeepLX Serverless        token API / one-click multi-platform deploy
+│
+╰─[ 8 tools indexed ]─────────────────────────────────────────────────────────
+```
+
+这些工具处理的是我自己会反复遇到的事情：校园服务的登录与预约、消息转发、受限网络访问、笔记状态同步，以及把一个小 API 快速部署出去。
+
+<table>
+  <tr>
+    <td width="31%"><a href="https://github.com/leecyang/NJAU-Libyy"><strong>🟢 NJAU-Libyy ↗</strong></a><br><sub>Node · SQLite · Docker · Tailscale</sub></td>
+    <td>自动预约、签到、签退和邮件 outbox；SQLite 持久化 job，进程内 scheduler 每分钟执行任务，GitHub Actions 构建镜像并上传 R2，服务器脚本按 manifest 自动更新。<br><a href="https://github.com/leecyang/NJAU-Libyy/blob/main/src/lib/scheduler.ts"><code>src/lib/scheduler.ts</code></a> · <a href="https://github.com/leecyang/NJAU-Libyy/blob/main/scripts/server-r2-update.sh"><code>server-r2-update.sh</code></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/WegoLibrary"><strong>🔵 WegoLibrary ↗</strong></a><br><sub>FastAPI · React · SQLite</sub></td>
+    <td>把微信授权、会话保活、远程签到和续签串成日常任务；上游接口不稳定时，客户端会处理换票、重试、限流和重复 Cookie。<br><a href="https://github.com/leecyang/WegoLibrary/blob/main/backend/app/traceint_client.py"><code>traceint_client.py</code></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/memos2bark"><strong>🟣 memos2bark ↗</strong></a><br><sub>Cloudflare Workers · KV</sub></td>
+    <td>注册 Memos webhook 后，自动把创建、更新和删除动态转成 Bark 推送；KV 保存用户配置，事件哈希做五分钟去重，并支持多个端点并发发送。<br><a href="https://github.com/leecyang/memos2bark/blob/main/src/index.ts"><code>src/index.ts</code></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/NJAU-Auth"><strong>🟡 NJAU-Auth ↗</strong></a><br><sub>Python · HTTPX · CAS</sub></td>
+    <td>用纯 HTTP 完成 CAS 登录，自动提取动态盐、处理图形验证码和短信二次验证，并保留可复用的 Cookie 状态；提供异步 API 和 CLI。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/NJAU-proxy"><strong>🔴 NJAU-proxy ↗</strong></a><br><sub>Node · Fastify · Undici</sub></td>
+    <td>为校园网访问提供白名单 HTTPS 出口：限制目标域名、阻断内网地址和 DNS 绕过，校验 Bearer Token，限制请求体、响应体、跳转次数并加入限流。<br><a href="https://github.com/leecyang/NJAU-proxy/blob/main/src/server.js"><code>src/server.js</code></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/feishu-interactive-cards"><strong>🟢 Feishu Cards ↗</strong></a><br><sub>JavaScript · Lark SDK</sub></td>
+    <td>把确认、投票、TODO、表单做成可复用卡片模板，回调服务负责响应校验、重复点击去重和可选的 OpenClaw Gateway 转发。<br><a href="https://github.com/leecyang/feishu-interactive-cards/blob/master/scripts/card-templates.js"><code>card-templates.js</code></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/obsidian-reading-progress"><strong>🔵 Reading Progress ↗</strong></a><br><sub>TypeScript · Obsidian</sub></td>
+    <td>根据当前阅读视图的滚动位置更新进度，切换笔记、阅读模式、窗口大小和内容高度时自动重新计算；版本标签触发 Actions 发布插件文件。</td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/leecyang/deeplx-serverless"><strong>🟣 DeepLX Serverless ↗</strong></a><br><sub>TypeScript · Vercel · Netlify · Workers</sub></td>
+    <td>把 DeepLX 包成带 Token 鉴权的翻译 API，提供 Vercel、Netlify 和 Cloudflare Workers 的一键部署入口，适合快速起一个个人翻译端点。</td>
+  </tr>
+</table>
+
+## `├─[05 / SOURCE]` `$ grep -R "worth_reading" ~/src`
 
 下面这些文件更能说明我的代码取向。链接直接落到实现，不按仓库热度排序。
 
@@ -198,7 +252,7 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 | [`memos2bark/src/index.ts`](https://github.com/leecyang/memos2bark/blob/main/src/index.ts) | 在单个 Cloudflare Worker 中完成 webhook 注册、鉴权、KV 配置、事件去重与并发推送。 |
 | [`ChronoCore/digital_clock_top.v`](https://github.com/leecyang/ChronoCore/blob/main/digital_clock_top.v) | 顶层 RTL 集成，连接分频、消抖、FSM、计时和显示模块，适合从硬件边界观察模块划分。 |
 
-## `└─[05 / RECORDS]` `$ cat ~/records/competitions.log`
+## `└─[06 / RECORDS]` `$ cat ~/records/competitions.log`
 
 ```text
 🟩 [rank 01] 全国大学生计算机系统能力大赛「先导杯」 / 算子优化赛道全国第 1 名
