@@ -13,7 +13,7 @@
 ├─[ SESSION 0x4C4359 ]──────────────────────────────────────────────────────────
 │  USER       🟦  leecyang
 │  EDUCATION  🟪  南京农业大学 · 电子信息工程技术 · 2027
-│  CURRENT    🟩  LingXi-Org / LingxiGraph / LingxiNext
+│  CURRENT    🟩  LingXi-Org / LingxiLoop / LingxiOS / LingxiLit
 │  LOCATION   🟨  Nanjing, China
 │  MODES      [🟢] learning  [🔵] profiling  [🟣] shipping
 │
@@ -22,7 +22,7 @@
 
 <div align="center">
 
-[`LingxiGraph`](https://github.com/LingXi-Org/LingxiGraph)　·　[`LingxiNext`](https://github.com/LingXi-Org/LingxiNext)　·　[`source`](https://github.com/leecyang?tab=repositories)　·　[`mail`](mailto:3439550021@qq.com)
+[`LingxiLoop`](https://github.com/LingXi-Org/LingxiLoop)　·　[`LingxiOS`](https://github.com/LingXi-Org/LingxiOS)　·　[`LingxiLit`](https://github.com/LingXi-Org/LingxiLit)　·　[`source`](https://github.com/leecyang?tab=repositories)　·　[`mail`](mailto:3439550021@qq.com)
 
 </div>
 
@@ -57,7 +57,7 @@ frameworks = MindSpore, PyTorch, ONNX
 work = migration, fine-tuning, quantization, memory scheduling
 
 [ai_infrastructure]
-work = graph runtime, model adapters, inference services, multi-agent workflows
+work = durable agent execution, learning collaboration, AI observability, graph runtime
 infra = PostgreSQL, Redis, Docker, Nginx, OpenTelemetry
 
 [edge_and_hardware]
@@ -80,19 +80,60 @@ FastAPI / PostgreSQL / Redis / Docker / Nginx / GitHub Actions
 ## `├─[02 / LINGXI]` `$ systemctl --user status lingxi.target`
 
 ```console
-🟢 lingxi.target — open-source multi-agent infrastructure
+🟢 lingxi.target — AI learning collaboration and agent infrastructure
 │
 ├─🟦 Loaded    LingXi-Org
 ├─🟢 Active    active (under development)
-├─🟪 Core      LingxiGraph.service
-├─🟨 App       LingxiNext.service
-└─🔵 Docs      https://docs.lingxilearn.cn
+├─🟨 Product   LingxiLoop / browser learning workspace
+├─🟪 Runtime   LingxiOS / durable agent execution
+├─🔵 Observe   LingxiLit / OpenLIT-based observability
+└─🟦 Source    https://github.com/LingXi-Org
 ```
 
-我创建了 [`LingXi-Org`](https://github.com/LingXi-Org)，目前把主要开发精力放在下面两个项目。一个处理运行时和耐久执行，另一个负责具体的多智能体编排与交互界面。
+我创建了 [`LingXi-Org`](https://github.com/LingXi-Org)，目前围绕学习协作产品、持久 Agent 执行和 AI 可观测性推进开发。LingxiLoop 通过公开包使用 LingxiOS，LingxiLit 作为独立的可观测性项目维护；具体集成方式以各仓库文档为准。
 
 <details open>
-<summary><code>🟢 ACTIVE :: LingXi-Org/LingxiGraph · v2.0.1</code></summary>
+<summary><code>🟨 PRODUCT :: LingXi-Org/LingxiLoop</code></summary>
+<br>
+
+[`LingxiLoop`](https://github.com/LingXi-Org/LingxiLoop) 是浏览器端学习协作平台，将私聊、Study Rooms 和 Labs 放进同一个工作台，并通过 LingxiOS 执行 Agent 任务。
+
+Web/API 负责认证入口和控制操作，后台 Worker 独立领取并执行任务。PostgreSQL 保存产品状态与 LLM 账本，WuKongIM 保存持久消息，Redis 负责临时协调，Open Notebook / SurrealDB 管理独立的知识数据。
+
+[`server/src/agent-runtime/runtime.ts`](https://github.com/LingXi-Org/LingxiLoop/blob/main/server/src/agent-runtime/runtime.ts) 是产品接入运行时的入口：连接产品工具、上下文、交付与模型调用记账，同时保持 Web 和 Worker 的职责边界。
+
+`TypeScript`　`React`　`Node.js`　`PostgreSQL`　`Redis`　`WuKongIM`
+
+</details>
+
+<details open>
+<summary><code>🟪 RUNTIME :: LingXi-Org/LingxiOS</code></summary>
+<br>
+
+[`LingxiOS`](https://github.com/LingXi-Org/LingxiOS) 是面向 Node.js 和 PostgreSQL 的通用持久 Agent 执行运行时。业务规则和认证由消费端提供，运行时负责持久任务、租约隔离、工具事务、故障恢复、审批与输入等待、模型预算和可验证结果。
+
+控制端接收请求，Worker 执行工作；任务运行状态、目标结果和交付状态分别记录。包通过 `@lyyzka/lingxios` 及其 `worker`、`ui`、`eval` 公开入口提供能力，数据库迁移由宿主显式执行。
+
+`TypeScript`　`Node.js`　`PostgreSQL`　`Python`　`MIT`
+
+</details>
+
+<details open>
+<summary><code>🔵 OBSERVABILITY :: LingXi-Org/LingxiLit</code></summary>
+<br>
+
+[`LingxiLit`](https://github.com/LingXi-Org/LingxiLit) 是基于 [`OpenLIT`](https://github.com/openlit/openlit) 社区版维护的 AI 可观测性项目，提供 OpenTelemetry 追踪、模型用量与成本观测、评估、提示词管理和调试能力。
+
+这个仓库保留 OpenLIT 上游来源、贡献者署名与 Apache-2.0 许可证，SDK 继续使用 `openlit` 名称。项目入口和开发说明见 [README](https://github.com/LingXi-Org/LingxiLit#readme)。
+
+`OpenTelemetry`　`OpenLIT`　`ClickHouse`　`Apache-2.0`
+
+</details>
+
+LingxiGraph 与 LingxiNext 继续保留各自独立的图运行时和应用编排定位：
+
+<details>
+<summary><code>🟢 GRAPH :: LingXi-Org/LingxiGraph</code></summary>
 <br>
 
 [`LingxiGraph`](https://github.com/LingXi-Org/LingxiGraph) 是一个模型供应商中立的耐久多智能体图运行时。它把普通 Python 函数组装成状态图，并提供持久化、失败恢复、流式事件和人工中断。
@@ -113,8 +154,8 @@ delivery     Docker Compose / Helm / OpenTelemetry / SBOM
 
 </details>
 
-<details open>
-<summary><code>🟢 ACTIVE :: LingXi-Org/LingxiNext</code></summary>
+<details>
+<summary><code>🟢 APP :: LingXi-Org/LingxiNext</code></summary>
 <br>
 
 [`LingxiNext`](https://github.com/LingXi-Org/LingxiNext) 是基于 LingxiGraph 与原生 Chainlit 的版本化多智能体编排平台。FastAPI、Chainlit、管理后台和图运行时放在同一进程中，PostgreSQL 保存会话、revision 和 checkpoint。
@@ -244,6 +285,8 @@ runtime      embedded LingxiGraph / PostgreSQL checkpoint
 
 | path | why it is here |
 |:--|:--|
+| [`LingxiLoop/agent-runtime/runtime.ts`](https://github.com/LingXi-Org/LingxiLoop/blob/main/server/src/agent-runtime/runtime.ts) | 产品接入已发布 LingxiOS 包的边界，连接工具、上下文、交付与 LLM 账本。 |
+| [`LingxiOS/model/execution.ts`](https://github.com/LingXi-Org/LingxiOS/blob/main/src/model/execution.ts) | 模型调用执行与观测，包含预算、用量、成本和调用耗时处理。 |
 | [`LingxiGraph/graph/executor.py`](https://github.com/LingXi-Org/LingxiGraph/blob/main/src/lingxigraph/graph/executor.py) | Pregel 超步执行、并行任务归并、checkpoint、interrupt、budget 和 cancellation 集中在同一个不可变编译图模型中。 |
 | [`LingxiGraph/server/worker.py`](https://github.com/LingXi-Org/LingxiGraph/blob/main/src/lingxigraph/server/worker.py) | 租约式分布式 Worker，包含心跳、优雅 drain、失败分类、重试与暂停恢复。 |
 | [`LingxiNext/graph_templates.py`](https://github.com/LingXi-Org/LingxiNext/blob/main/app/graph_templates.py) | 五类多智能体拓扑的服务端校验与编译，约束角色、边、循环、入口可达性和运行上限。 |
